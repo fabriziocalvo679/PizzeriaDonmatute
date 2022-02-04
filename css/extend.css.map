@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AACA,AAAA,SAAS,EAIT,QAAQ,CAJE;EACV,SAAS,EAAE,IAAI;EACf,WAAW,EAAC,uBAAuB;CAClC;;AACD,AAAA,QAAQ,CAAC;EACT,WAAW,EAAC,yBAAyB;CACpC",
+    "sources": [
+        "../css-estilos/extend.scss"
+    ],
+    "names": [],
+    "file": "extend.css"
+}

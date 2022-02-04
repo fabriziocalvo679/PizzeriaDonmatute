@@ -1,6 +1,6 @@
 
 @import "maps";
-
+@import "extend" ;
 
 body {
     background-color: rgb(31, 31, 31);
@@ -68,7 +68,6 @@ body {
     
     .form-container { padding-bottom: 30px;}
     
-    .form-label {color: bisque;}
     
     .formulario 
     {margin-left: 400px;

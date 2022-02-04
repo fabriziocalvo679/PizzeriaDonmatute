@@ -5,7 +5,18 @@ $mapsTexto: (titulos: rgb(240, 198, 147),palabras:beige );
 
 @each $textos,$color in $mapsTexto {
     .#{$textos} {
-        color: $color;
+    color: $color;
     }
     
+}
+
+
+$estilo:(
+color: rgb(237, 245, 165) ,
+tamFuente: 20px ,
+);
+
+.form-label { 
+color:map-get($estilo, color);
+font-size: map-get($estilo, tamFuente);
 }

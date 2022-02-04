@@ -3,8 +3,22 @@
   color: #f0c693;
 }
 
-.palabras {
+.palabras, .titulos {
   color: beige;
+}
+
+.form-label {
+  color: #edf5a5;
+  font-size: 20px;
+}
+
+.palabras, .titulos {
+  font-size: 25px;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.titulos {
+  font-family: 'Dancing Script', cursive;
 }
 
 body {
@@ -87,7 +101,7 @@ body {
 
 .redes-icon {
   padding: 15px;
-  color: beige;
+  color: #f0c693;
   font-size: 35px;
 }
 
@@ -99,10 +113,6 @@ h4 {
 
 .form-container {
   padding-bottom: 30px;
-}
-
-.form-label {
-  color: bisque;
 }
 
 .formulario {

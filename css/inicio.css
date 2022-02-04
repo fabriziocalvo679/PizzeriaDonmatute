@@ -1,3 +1,11 @@
+.titulos {
+  color: #f0c693;
+}
+
+.palabras {
+  color: beige;
+}
+
 * {
   padding: 0px;
   margin: 0px;
@@ -7,45 +15,45 @@
   background-image: url(/img/background.jpg);
 }
 
-.logo {
-  padding-left: 30px;
-}
-
-.logo img {
-  width: 80px;
+.logo-img {
+  margin-left: 60px;
+  width: 60px;
   height: auto;
 }
 
-.barra {
-  padding-right: 40px;
+.contenedor-navegacion {
+  padding-left: 570px;
 }
 
-.barra a {
-  text-decoration: none;
-  font: beige "Open Sans", sans-serif;
+.barra-navegacion li {
+  padding-inline: 15px;
 }
 
-.barra li {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  text-decoration: none;
+#text-menu {
+  font-family: 'Open Sans', sans-serif;
   text-align: center;
-  font-size: 17px;
-  display: inline-block;
-  padding: 0.5rem;
-  border-radius: 1rem;
-}
-
-.barra li:hover {
-  background-color: #888885;
+  font-style: italic;
+  text-decoration: none;
+  color: beige;
 }
 
 /* ---------SECCION CENTRAL -----------*/
 .texto-central {
   text-align: center;
-  font: beige "Open Sans", sans-serif;
-  padding: 200px;
+  padding: 300px;
+  position: center;
+}
+
+#pizzeria {
+  color: #bbbe09;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 80px;
+}
+
+#don-matute {
+  color: #160101;
+  font-family: 'Dancing Script', cursive;
+  font-size: 80px;
 }
 
 /* ---------PIE DE PAGINA  -----------*/
@@ -56,7 +64,7 @@
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  background-color: #080808;
+  background-color: black;
   padding-top: 15px;
 }
 
@@ -69,7 +77,7 @@
 }
 
 .foot-logo {
-  padding: 25px;
+  padding: 20px;
 }
 
 .foot-logo img {
@@ -78,13 +86,8 @@
   height: auto;
 }
 
-.foot-nav {
-  text-align: center;
-  padding-right: 30px;
-}
-
 #donmatute {
-  font: beige "Open Sans", sans-serif;
+  color: bisque;
   font-size: 23px;
   font-style: italic;
 }
@@ -98,24 +101,48 @@
 #foot-texto {
   padding-top: 5px;
   padding-bottom: 5px;
-  font: beige "Open Sans", sans-serif;
+  color: beige;
+  font-family: 'Open Sans', sans-serif;
 }
 
 .col a {
-  font: beige "Open Sans", sans-serif;
+  color: beige;
 }
 
-.ultima-columna {
-  width: 400px;
-  padding-left: 35px;
+.foot-columna {
   text-align: center;
 }
 
-/* ---------RESPONSIVE -----------*/
+/*---------RESPONSIVE -----------*/
+@media (max-width: 992px) {
+  .contenedor-navegacion {
+    padding-left: 0px;
+  }
+  .barra-navegacion li {
+    padding-inline: 5px;
+  }
+}
+
 @media (max-width: 768px) {
   .texto-central {
-    position: center;
-    padding: 200px;
+    margin: 0%;
+    padding: 160px;
+  }
+  .contenedor-navegacion {
+    padding-left: 0px;
+  }
+  .barra-navegacion li {
+    padding-inline: 65px;
+  }
+  #pizzeria {
+    color: #63270c;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 50px;
+  }
+  #don-matute {
+    color: silver;
+    font-family: 'Dancing Script', cursive;
+    font-size: 50px;
   }
   /* ---------PIE DE PAGINA  -----------*/
   .footer {
@@ -130,6 +157,10 @@
   .foot-nav {
     padding-bottom: 10px;
   }
+}
+
+/* ---------576px -----------*/
+@media (max-width: 576px) {
   .foot-logo img {
     margin-right: 0px;
   }

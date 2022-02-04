@@ -1,72 +1,70 @@
+
+@import "variables" ;
+@import "maps";
+
 *{ padding:0px;
 margin:0px;
 }
-
-
-$texto-principal: beige 'Open Sans', sans-serif; 
 
 #background{background-image: url(/img/background.jpg);}
 
 //Menu de navegacion 
 
-.logo {
-padding-left: 30px;
 
-img { width: 80px;
-height: auto;
-} 
-}
+.logo-img { margin-left: 60px;
+width: 60px;
+height: auto;}
 
-.barra {padding-right: 40px;
+.contenedor-navegacion {
+padding-left: 570px;}
 
-a {text-decoration: none;
-font: $texto-principal;
-}
+.barra-navegacion li {padding-inline: 15px;}
 
-li { display: flex;
-text-decoration: none;
+#text-menu {font-family:'Open Sans', sans-serif;
 text-align: center;
-font-size: 17px;
-display: inline-block;
-padding: 0.5rem;
-border-radius:1rem;
+font-style: italic;
+text-decoration: none;
+color: beige;
 }
-
-li:hover {background-color: rgb(136, 136, 133);}
-}
-
 
 /* ---------SECCION CENTRAL -----------*/
 
 .texto-central { text-align: center;
-font: $texto-principal;
-padding: 200px;}
+padding: 300px;
+position: center;
+}
+
+#pizzeria {color: rgb(187, 190, 9);
+font-family:'Open Sans', sans-serif;
+font-size: 80px;
+}
+
+#don-matute {color:rgb(22, 1, 1);
+font-family: 'Dancing Script', cursive;
+font-size: 80px;
+}
 
 /* ---------PIE DE PAGINA  -----------*/
-.footer {display: flex;
+.footer { display: flex;
 align-items: center;
-background-color: rgb(8, 8, 8);
+background-color: black;
 padding-top: 15px; 
 
-li {list-style:none; }
+li {list-style:none;}
 
-a {text-decoration: none;
+
+a {text-decoration: none;}
+
 }
-}
 
-.foot-logo {padding: 25px;
-
-img {
-margin-right: 10px;
+.foot-logo {
+padding: 20px;
+img { margin-right: 10px;
 width: 50px;
-height: auto;
-}
+height: auto;}
 }
 
-.foot-nav{text-align: center;
-padding-right: 30px;}
-
-#donmatute  {font: $texto-principal;
+#donmatute  {color: bisque;
 font-size: 23px ;
 font-style: italic;
 }
@@ -79,22 +77,44 @@ color: beige;
 
 #foot-texto {padding-top: 5px;
 padding-bottom: 5px;
-font:$texto-principal;}
+color: beige;
+font-family: 'Open Sans', sans-serif; }
 
-.col a {font:$texto-principal;}
+.col a {color: beige;}
 
-.ultima-columna {width: 400px;
-padding-left: 35px;
-text-align:center;}
+.foot-columna{
+text-align:center;} 
 
+/*---------RESPONSIVE -----------*/
 
-/* ---------RESPONSIVE -----------*/
+@media (max-width: 992px) {
+
+.contenedor-navegacion {
+padding-left: 0px;}
+
+.barra-navegacion li {padding-inline: 5px;}
+}
+
 
 @media (max-width: 768px) {
 
-.texto-central{ 
-position: center;
-padding: 200px;
+.texto-central{ margin: 0%;
+padding: 160px;
+}
+
+.contenedor-navegacion {
+padding-left: 0px;}
+
+.barra-navegacion li {padding-inline: 65px;}
+
+#pizzeria {color: rgb(99, 39, 12);
+font-family:'Open Sans', sans-serif;
+font-size: 50px;
+}
+
+#don-matute {color: rgb(192, 192, 192);
+font-family: 'Dancing Script', cursive;
+font-size: 50px;
 }
 
 /* ---------PIE DE PAGINA  -----------*/
@@ -102,8 +122,10 @@ padding: 200px;
 flex-direction: column;}
 
 .foot-nav {padding-bottom: 10px;}
+}
+
+/* ---------576px -----------*/
+@media (max-width: 576px) { 
 
 .foot-logo img { margin-right: 0px;}
-
-
 }

@@ -1,0 +1,11 @@
+
+//MAPSS 
+
+$mapsTexto: (titulos: rgb(240, 198, 147),palabras:beige );
+
+@each $textos,$color in $mapsTexto {
+    .#{$textos} {
+        color: $color;
+    }
+    
+}

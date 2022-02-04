@@ -1,0 +1,188 @@
+.fondo {
+background-color: rgb(17, 17, 17);
+}
+* {
+padding: 0px;
+margin: 0px;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;1,500&display=swap');
+/* ---------Barra de Navegacion del menu -----------*/
+
+.logo{width: 80px;
+height: auto;
+padding-left: 30px;
+padding-right: 10px;
+}
+.logo img { width: 80px;
+height: auto;}
+
+.contenedor-navegacion {
+padding-left: 570px;}
+
+.barra-navegacion li {padding-inline: 15px;}
+
+#text-menu {font-family:'Open Sans', sans-serif;
+text-align: center;
+font-style: italic;
+text-decoration: none;
+color: beige;
+}
+
+
+
+
+/*--------- CONTENEDOR FLEX UNO ---------- */
+.banner {font-family:'Open Sans', sans-serif;
+font-size: 60px;
+font-style: italic;
+padding-left: 9rem;
+padding-bottom: 3rem;
+text-align: center;
+color: bisque;
+}
+
+.contenedor-flex {display: flex;
+padding: 50px;
+align-items: center;
+text-align: center;
+}
+#parrafo {text-align: center;
+font-size: 30px;
+padding-left: 20px;
+font-family:'Open Sans', sans-serif;
+font-style: italic;
+color: bisque;
+word-spacing: 4px;
+line-height: 40px;}
+
+
+#nosotros-img {width: 450px;
+height: auto;}
+/*--------- CONTENEDOR FLEX DOS ---------- */
+
+#separador-img  {width: 1348px;
+}
+
+.contenedor-flex-productos {display: flex;
+padding: 50px;
+align-items: center;
+text-align: center;
+}
+
+.banner-productos {font-family:'Open Sans', sans-serif;
+font-style: italic;
+padding-right: 9rem;
+text-align: center;
+color: bisque;
+font-size: 60px;
+padding-bottom: 3rem;
+}
+
+.parrafo-productos {text-align: center;
+font-size: 30px;
+padding-right: 15px;
+font-family:'Open Sans', sans-serif;
+font-style: italic;
+color: bisque;
+word-spacing: 4px;
+line-height: 50px;}
+
+#productos-img {width: 400px;
+height: 500px;}
+
+/*--------- CONTENEDOR FOTOGRAFIA ---------- */
+
+
+
+/* ---------PIE DE PAGINA  -----------*/
+.footer 
+{display: flex;
+align-items: center;
+background-color: rgb(8, 8, 8);
+padding-top: 15px;
+} 
+.footer li {list-style:none;
+
+}
+.footer a {text-decoration: none;
+}
+.foot-logo {
+padding: 20px;}
+.foot-logo img {width: 50px;
+height: auto;
+margin-right: 10px;
+}
+
+#donmatute  {color: beige;
+font-size: 23px ;
+font-style: italic;
+}
+
+
+.medida-icono{padding: 8px;
+font-size: 25px;
+color: beige;
+}
+
+#foot-texto {padding-top: 5px;
+padding-bottom: 5px;
+color: beige;
+font-family: 'Open Sans', sans-serif; }
+
+.col a {color: beige;}
+
+.foot-columna{
+text-align:center;} 
+
+
+
+/* -------------------------------------------RESPONSIVE-------------------------------------------------*/
+
+
+@media (max-width: 992px) {
+
+  .contenedor-navegacion {
+  padding-left: 30px;}
+  
+  .barra-navegacion li {padding-inline: 5px;}
+  }
+  
+/* ---------768px -----------*/
+
+@media (max-width: 768px) {
+/* ---------NOSOTROS  -----------*/
+
+.contenedor-flex {flex-direction: column;}
+
+.banner {
+padding: 10px;
+}
+
+#separador-img{
+width: 680px;
+height:auto;
+
+}
+
+
+/* --------NUESTROS PRODUCTOS -----------*/
+
+.contenedor-flex-productos{flex-direction: column-reverse;}
+.banner-productos {
+padding: 10px;
+}
+
+.parrafo-productos {padding: 10px;
+}
+
+
+/* ---FOOTER ---*/
+.footer {margin: 0px;
+display: flex;
+flex-direction: column;}
+.foot-nav {padding-bottom: 10px;}
+
+.foot-logo img { margin-right: 0px;}
+
+}

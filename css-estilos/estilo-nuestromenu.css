@@ -1,0 +1,200 @@
+/* FONDO DE LA PAGINA  */
+.fondo{background-color: rgb(14, 14, 14);}
+*{ padding:0px;
+margin:0px;
+}
+/* ---------BARRA DE NAVEGACION MENU PRINCIPAL-----------*/
+.logo{width: 80px;
+height: auto;
+padding-left: 30px;
+padding-right: 10px;
+}
+.logo img { width: 80px;
+height: auto;}
+
+.contenedor-navegacion {
+padding-left: 570px;}
+
+.barra-navegacion li {padding-inline: 15px;}
+
+
+.titulo {font-family: 'Open Sans', sans-serif;
+font-size:  50px; 
+text-align: center;
+padding: 100px;
+color: rgb(2, 1, 0);
+background-image: url(../img/nosotros/pizzaslice.jpg);
+background-size: cover;
+background-repeat: no-repeat;
+background-position: center;
+width: auto;
+height: auto;
+}
+
+
+/* ---------BARRA DE NAVEGACION PEDIDO -----------*/
+#menu-item {
+font-family:'Open Sans', sans-serif;}
+.menu-navegacion {justify-content: center
+} 
+
+
+
+/* ---------Tipografias -----------*/
+
+
+
+h2 {font-family: 'Dancing Script', cursive;
+text-align: start;
+font-size:  25px;
+padding-left: 10px;
+color: bisque;
+}
+
+
+
+h3 {font-family:'Open Sans', sans-serif;
+text-align: center;
+padding: 35px;
+color: beige;
+}
+
+p {
+font-family: 'Open Sans', sans-serif;
+text-transform: lowercase;
+color: beige;}
+
+.empanada li{ list-style: none;
+color: beige;
+font-size: 20px;
+font-family: 'Dancing Script', cursive;
+margin-left: 10px; }
+
+.helados  li{ list-style: none;
+color: beige;
+font-size: 20px;
+font-family: 'Dancing Script', cursive;
+margin-left: 10px; }
+/* ----------------------imagenes-------------------------- */
+
+img:hover {border-radius:0rem;
+}
+.pizzafoto 
+{border-radius: 4rem;
+width: 96px;
+height: 96px ;
+}
+.calzonefoto
+{width: 96px;
+height: 96px ;
+border-radius: 4rem;}
+
+.empanadasfoto  {width: auto;
+height: 96px ;
+border-radius: 4rem;
+}
+
+.fotobebida  {width: auto;
+height: 96px ;
+}
+.fotobebida-litro {height: 96px;
+width:auto;}
+
+.postrefoto 
+{width: 115px;
+height: 110px ;
+border-radius: 4rem;
+}
+.heladofoto { width: 115px;
+height: 110px;
+border-radius: 4rem;}
+
+
+
+/* ---------------------- CONTENEDORES-------------------------- */
+
+.pizzas col {margin-left: 30px;
+padding: 10px;}
+.pizzas .col:hover {background-color: rgb(18, 18, 18);}
+
+
+.empanada{ justify-content: stretch;
+padding:20px;
+align-items: center;}
+.empanada:hover {background-color: rgb(18, 18, 18);
+}
+
+.helados {padding: 15px;}
+.helados .col:hover{background-color: rgb(18, 18, 18);}
+
+
+/* ---------PIE DE PAGINA  -----------*/
+.footer 
+{display: flex;
+align-items: center;
+background-color: rgb(8, 8, 8);
+padding-top: 15px;
+} 
+.footer li {list-style:none;
+
+}
+.footer a {text-decoration: none;
+}
+.foot-logo {
+padding: 20px;}
+
+.foot-logo img {width: 50px;
+height: auto;
+margin-right: 10px;
+}
+
+#donmatute  {color: beige;
+font-size: 23px ;
+font-style: italic;
+}
+
+
+.medida-icono{padding: 8px;
+font-size: 25px;
+color: beige;
+}
+
+#foot-texto {padding-top: 5px;
+padding-bottom: 5px;
+color: beige;
+font-family: 'Open Sans', sans-serif; }
+
+.col a {color: beige;}
+
+.foot-columna{
+text-align:center;} 
+
+
+
+/* -------------------------------------------RESPONSIVE-------------------------------------------------*/
+
+@media (max-width: 992px) {
+
+.contenedor-navegacion {
+padding-left: 30px;}
+
+.barra-navegacion li {padding-inline: 5px;}
+}
+
+
+
+
+/* ---------768px -----------*/
+
+@media (max-width: 768px) {
+
+
+/* ---FOOTER ---*/
+.footer {margin: 0px;
+display: flex;
+flex-direction: column;}
+.foot-nav {padding-bottom: 10px;}
+
+.foot-logo img { margin-right: 0px;}
+
+}

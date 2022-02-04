@@ -1,0 +1,109 @@
+*{ padding:0px;
+margin:0px;
+}
+
+
+$texto-principal: beige 'Open Sans', sans-serif; 
+
+#background{background-image: url(/img/background.jpg);}
+
+//Menu de navegacion 
+
+.logo {
+padding-left: 30px;
+
+img { width: 80px;
+height: auto;
+} 
+}
+
+.barra {padding-right: 40px;
+
+a {text-decoration: none;
+font: $texto-principal;
+}
+
+li { display: flex;
+text-decoration: none;
+text-align: center;
+font-size: 17px;
+display: inline-block;
+padding: 0.5rem;
+border-radius:1rem;
+}
+
+li:hover {background-color: rgb(136, 136, 133);}
+}
+
+
+/* ---------SECCION CENTRAL -----------*/
+
+.texto-central { text-align: center;
+font: $texto-principal;
+padding: 200px;}
+
+/* ---------PIE DE PAGINA  -----------*/
+.footer {display: flex;
+align-items: center;
+background-color: rgb(8, 8, 8);
+padding-top: 15px; 
+
+li {list-style:none; }
+
+a {text-decoration: none;
+}
+}
+
+.foot-logo {padding: 25px;
+
+img {
+margin-right: 10px;
+width: 50px;
+height: auto;
+}
+}
+
+.foot-nav{text-align: center;
+padding-right: 30px;}
+
+#donmatute  {font: $texto-principal;
+font-size: 23px ;
+font-style: italic;
+}
+
+
+.medida-icono{padding: 8px;
+font-size: 25px;
+color: beige;
+}
+
+#foot-texto {padding-top: 5px;
+padding-bottom: 5px;
+font:$texto-principal;}
+
+.col a {font:$texto-principal;}
+
+.ultima-columna {width: 400px;
+padding-left: 35px;
+text-align:center;}
+
+
+/* ---------RESPONSIVE -----------*/
+
+@media (max-width: 768px) {
+
+.texto-central{ 
+position: center;
+padding: 200px;
+}
+
+/* ---------PIE DE PAGINA  -----------*/
+.footer {display: flex;
+flex-direction: column;}
+
+.foot-nav {padding-bottom: 10px;}
+
+.foot-logo img { margin-right: 0px;}
+
+
+}

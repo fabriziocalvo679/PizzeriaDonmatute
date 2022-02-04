@@ -4,76 +4,152 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css-estilos/estilosobrenosotros.css">
-    <link rel="icon" href="favicon/logodonmatute.jpeg">
-    <style>
-        @import url('https://fonts.googleapis.com/css2?family=Corinthia:wght@700&family=Courgette&display=swap');
-        </style>
+    <META NAME="DC.Language" SCHEME="RFC1766" CONTENT="Spanish">
+    <META NAME="DESCRIPTION" CONTENT="Como surgio Pizzeria Don Matute ,conoce su historia y la elaboracion de sus productos">
+    <META NAME="KEYWORDS" CONTENT="pizzería,pizzas,empanadas,calzones,bebidas,postres,colegiales,Belgrano,las cañitas,Palermo,Núñez">
+    <META NAME="Resource-type" CONTENT="Document">
+    <META NAME="robots" content="ALL">
+    <link rel="stylesheet" href="css-estilos/estilo-sobrenosotros.css">
+    <link rel="icon" href="favicon/logodonmatute.png">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/a91c5402c2.js" crossorigin="anonymous"></script>
     <title>Sobre Nosotros</title>
 </head>
-<div class="logo-barra"> 
-    <div class="logo"> 
-        <a href="index.html"> <img class="logo" src="img/logodonmatute1.png" alt="logo"> </a>
-    </div>
-    
-    <div class="barra" >
-    <nav> 
-    
-        <ul >
-        <li><a href="index.html">Inicio</a> </li>
-        <li><a href="realizarpedido.html">Realizar Pedido</a></li>
-        <li><a href="sobrenosotros.html"> Sobre Nosotros</a></li>
-        <li><a href="contacto.html">Contacto</a></li>
-        </ul>
-    </nav>
-    </div>
-    
-    
-    </div>
 <body class="fondo">
-<h1 class="banner">Descurbí Un Sabor Inolvidable</h1>
-<br>
-<div id="video">
-<video src="img/pizza.mp4" frameborder="100" width="700" height="400"  onloadedmetadata="this.muted=true" autoplay loop ></video>
-<br>
+<nav class="navbar navbar-expand-lg navbar-dark  bg-black bg-gradient ">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="index.html">
+            <img class="logo" src="img/logodonmatute1.png" alt="logo" /> </a>
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+            aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse barra-navegacion contenedor-navegacion" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                    <a class="nav-link " aria-current="page" href="index.html">Inicio</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="nuestromenu.html">Nuestro Menú</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" href="#"> Sobre Nosotros</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link  " href="contacto.html">Contacto</a>
+                </li>
+            </ul>
+            <!-- AGREGAR DESPUES
+            <form class="d-flex">
+                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-warning" type="submit">Search</button>
+            </form>
+        </div>
+        -->
+    </div>
+</nav>
+
+
+<section class="container-fluid d-flex contenedor-flex border-top border-bottom ">
+
+
+<div >
+<img id="nosotros-img" src="img/nosotros/us.jpg" alt="staff" >
 </div>
-<div class="parrafo">
-<p >Pizzeria Don Matute nació en febrero del 2017 con el afán de cumplir las expectativas de sus clientes. 
-Nació con la ilusión de dos personas, padre e hijo , con el objetivo de concretar un sueño: tener su propia pizzería. 
-Mucho esfuerzo , dedicación , trabajo y paciencia acompañados por sus familiares, dieron frutos a un local lleno de gente que nos 
-acompaña día a día .
-Nuestro local se caracteriza por la excelente calidad en todos sus productos, el tamaño , el sabor , la atención y el excelente precio. Para nosotros es primordial la satisfacción de ustedes . 
-Gracias por acompañarnos !!
+
+<div  >
+<h1 class="banner">Nuestra Historia</h1>
+<p id="parrafo">Pizzeria Don Matute nació en febrero del 2017 con el afán de cumplir las expectativas de sus clientes. <br>
+Nació con la ilusión de dos personas, padre e hijo, con el objetivo de concretar un sueño: tener su propia pizzería. 
+Mucho esfuerzo , dedicación , trabajo y paciencia junto con la compania de sus familiares, dieron frutos a un local que se caracteriza por su excelente atencion. 
+Para nosotros es primordial la satisfacción nuestros clientes. 
+Gracias por acompañarnos!!
 </p>
 </div>
 
-<footer class="footer">
-    <div id="donmatute">
-        <label> Pizzería Don Matute All Rights Reserved .-2017</label>
+</section>
 
-        <label><img id="alfiler" src="img/alfiler.png" /> Teodoro Garcia 2502 ,
-            Colegiales.
-        </label>
+
+<div class="contenedor-fotografia"> 
+
+    <img src="img/nosotros/local.jpg" alt="pizzapicture" id="separador-img">
+    
     </div>
-    <div class="foot-menu">
-        <nav>
-            <li><a href="index.html">Inicio</a></li>
-            <li><a href="realizarpedido.html">Realizar Pedido</a></li>
-            <li><a href="sobrenosotros.html"> Sobre Nosotros</a></li>
-            <li><a href="contacto.html">Contacto</a></li>
+    
+
+<section class="container-fluid d-flex contenedor-flex-productos border-top border-bottom ">
+<div>
+<h1 class="banner-productos " >Detrás de Escena</h1>
+
+<p class="parrafo-productos" >Lorem ipsum, dolor sit amet consectetur adipisicing elit. Earum aliquam fugit voluptatum! Aspernatur voluptatibus totam, doloremque, adipisci quod eius mollitia iusto quasi laborum rerum consequatur tempore. Modi odit commodi asperiores? Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dignissimos eveniet ducimus sequi rerum voluptates ipsa deserunt doloribus labore consequuntur, cumque atque nulla, quas doloremque repellendus, sapiente ullam id. Quidem, aut!
+</p>
+</div>
+
+<div >
+<img id="productos-img"  src="img/nosotros/nosotros.jpg" alt="productos">
+</div>
+</section>
+
+
+
+<div class="contenedor-fotografia"> 
+
+    <img src="img/nosotros/424755.jpg" alt="pizzapicture" id="separador-img">
+
+</div>
+
+
+<!--Pie de pagina-->
+<footer class="footer ">
+
+    <div class=" col foot-logo d-flex align-items-center ">
+        <a href="index.html">
+            <img src="img/logodonmatute1.png" alt="logo" /> </a>
+        <label class="col " id="donmatute"> Pizzeria Don Matute </label>
+    </div>
+
+    <div class="col foot-columna">
+        <nav class="foot-nav">
+            <li id="foot-texto"><a href="index.html">Inicio</a></li>
+            <li id="foot-texto"><a href="realizarpedido.html">Realizar Pedido</a></li>
+            <li id="foot-texto"><a href="sobrenosotros.html"> Sobre Nosotros</a></li>
+            <li id="foot-texto"><a href="contacto.html">Contacto</a></li>
         </nav>
     </div>
-    <div class="foot-img">
-        <a href="https://www.facebook.com/pizzeriadonmatute" target="”_blank”">
-            <img src="https://img.icons8.com/ios/50/000000/facebook--v2.png" alt="facebook icon" />
-        </a>
-        <a href="https://www.instagram.com/pizzeriadonmatute/" target="”_blank”">
-            <img src="https://img.icons8.com/ios/50/000000/instagram-new--v3.png" alt="instagram icon" />
-        </a>
-        <a href="https://l.instagram.com/?u=https%3A%2F%2Ftinyurl.com%2Fpizzeriadonmatute&e=ATNvVdoSPQTh65VOhpuqDLcGMPEkfC2059rb2si1XhOKKHT100mI-P7VUgys9_aoYUEnjsSA1CcTijoxAg5EGg&s=1"
-            target="”_blank”">
-            <img src="https://img.icons8.com/ios/50/000000/whatsapp--v4.png" alt="whats app icon" /></a>
+    <!--cierre clase col 2-->
+
+    <div class="col foot-columna">
+        <div>
+            <label id="foot-texto"><img src="img/iconos/ubicacion.svg" alt="locationicon" /> Teodoro Garcia
+                2502, Colegiales.
+            </label>
+        </div>
+
+        <div>
+            <label id="foot-texto"> <img src="img/iconos/phone.png" alt="phoneicon" /> 4553-5534 / 4553-9910
+            </label>
+        </div>
+
+        <div>
+            <a href="https://www.facebook.com/pizzeriadonmatute" target="”_blank”">
+                <i class="fab fa-facebook medida-icono" alt="facebook icon"></i>
+            </a>
+            <a href="https://www.instagram.com/pizzeriadonmatute/" target="”_blank”">
+                <i class="fab fa-instagram medida-icono" alt="instagram icon"></i>
+            </a>
+            <a href="https://l.instagram.com/?u=https%3A%2F%2Ftinyurl.com%2Fpizzeriadonmatute&e=ATNvVdoSPQTh65VOhpuqDLcGMPEkfC2059rb2si1XhOKKHT100mI-P7VUgys9_aoYUEnjsSA1CcTijoxAg5EGg&s=1"
+                target="”_blank”">
+                <i class="fab fa-whatsapp medida-icono " alt="whatsappicon"></i>
+            </a>
+        </div>
+        <!--cierre clase redes sociales-->
     </div>
+    <!--cierre ultima columna-->
 </footer>
+
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
 
 </html>

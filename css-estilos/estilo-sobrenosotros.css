@@ -9,12 +9,9 @@ margin: 0px;
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;1,500&display=swap');
 /* ---------Barra de Navegacion del menu -----------*/
 
-.logo{width: 80px;
-height: auto;
-padding-left: 30px;
-padding-right: 10px;
-}
-.logo img { width: 80px;
+
+.logo-img { margin-left: 60px;
+width: 60px;
 height: auto;}
 
 .contenedor-navegacion {
@@ -28,8 +25,6 @@ font-style: italic;
 text-decoration: none;
 color: beige;
 }
-
-
 
 
 /*--------- CONTENEDOR FLEX UNO ---------- */
@@ -48,7 +43,7 @@ align-items: center;
 text-align: center;
 }
 #parrafo {text-align: center;
-font-size: 30px;
+font-size: 20px;
 padding-left: 20px;
 font-family:'Open Sans', sans-serif;
 font-style: italic;
@@ -61,8 +56,7 @@ line-height: 40px;}
 height: auto;}
 /*--------- CONTENEDOR FLEX DOS ---------- */
 
-#separador-img  {width: 1348px;
-}
+
 
 .contenedor-flex-productos {display: flex;
 padding: 50px;
@@ -80,7 +74,7 @@ padding-bottom: 3rem;
 }
 
 .parrafo-productos {text-align: center;
-font-size: 30px;
+font-size: 20px;
 padding-right: 15px;
 font-family:'Open Sans', sans-serif;
 font-style: italic;

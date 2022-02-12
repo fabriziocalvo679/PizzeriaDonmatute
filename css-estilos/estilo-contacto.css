@@ -41,11 +41,6 @@ font-size: 30px;
 color: bisque;
 }
 
-#map {width: 600px;
-height: 400px;
-display: flex;
-align-items: center;
-margin-left: 220px;}
 
 #columnas {text-align: center;
 padding: 40px;

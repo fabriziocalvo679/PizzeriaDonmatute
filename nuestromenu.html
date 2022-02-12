@@ -13,16 +13,18 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <script src="https://kit.fontawesome.com/a91c5402c2.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="css-estilos/estilo-nuestromenu.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
     <style>
-        @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Open+Sans:ital,wght@0,400;1,500&display=swap');
-            </style>
+    @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Open+Sans:ital,wght@0,400;1,500&display=swap');
+    </style>
     <title>Nuestro Menú</title>
 </head>
-<body class="fondo">
-    <nav class="navbar navbar-expand-lg navbar-dark bg-black bg-gradient ">
+<body >
+    <Section class="contenedor-menu "> 
+    <nav class="navbar navbar-expand-lg navbar-dark  ">
         <div class="container-fluid">
             <a class="navbar-brand" href="index.html">
-                <img class="logo" src="img/logodonmatute1.png" alt="logo" /> </a>
+                <img class="logo-img" src="img/logodonmatute1.png" alt="logo" /> </a>
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                 data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
@@ -32,58 +34,51 @@
             <div class="collapse navbar-collapse barra-navegacion contenedor-navegacion" id="navbarSupportedContent">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                     <li class="nav-item">
-                        <a class="nav-link " aria-current="page" href="index.html">Inicio</a>
+                        <a class="nav-link" aria-current="page" href="index.html">Inicio</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link active" href="#">Nuestro Menú</a>
+                        <a class="nav-link active"  href="#">Nuestro Menú</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link " href="sobrenosotros.html"> Sobre Nosotros</a>
+                        <a class="nav-link" href="sobrenosotros.html"> Sobre Nosotros</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link  " href="contacto.html">Contacto</a>
+                        <a class="nav-link  " href="reseñas.html">Reseñas</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link " href="contacto.html">Contacto</a>
                     </li>
                 </ul>
-                <!-- AGREGAR DESPUES
-                <form class="d-flex">
-                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                    <button class="btn btn-outline-warning" type="submit">Search</button>
-                </form>
-            </div>
-            -->
         </div>
     </nav>
-<Section class="contenedor-menu "> 
-<div class="titulo"> 
+
+<div class="titulo border-bottom"> 
 <h1>Nuestro Menú </h1>
-
 </div>
+</Section>
 
-
-<!-- CONTENEDOR PRDUCTOS -->
-<div class="contenedor-productos">
 <div> 
     <ul class="nav nav-tabs menu-navegacion d-flex" id="myTab" role="tablist">
         <li class="nav-item  " role="presentation" id="menu-item">
-            <button class="nav-link active" id="pizzas-tab" data-bs-toggle="tab" data-bs-target="#pizzas" type="button"
+            <button class="nav-link active text-secondary" id="pizzas-tab" data-bs-toggle="tab" data-bs-target="#pizzas" type="button"
                 role="tab" aria-controls="pizzas" aria-selected="true"> 
                 <i class="fas fa-pizza-slice"></i> Pizzas</button>
         </li>
         <li class="nav-item" role="presentation" id="menu-item">
-            <button class="nav-link" id="empanadas-tab" data-bs-toggle="tab" data-bs-target="#empanadas" type="button"
+            <button class="nav-link text-secondary" id="empanadas-tab" data-bs-toggle="tab" data-bs-target="#empanadas" type="button"
                 role="tab" aria-controls="empanadas" aria-selected="false">
                 <i class="fas fa-pizza-slice"></i> Empanadas</button>
         </li>
         <li class="nav-item" role="presentation" id="menu-item">
-            <button class="nav-link" id="calzones-tab" data-bs-toggle="tab" data-bs-target="#calzones" type="button"
+            <button class="nav-link text-secondary" id="calzones-tab" data-bs-toggle="tab" data-bs-target="#calzones" type="button"
                 role="tab" aria-controls="calzones" aria-selected="false"><i class="fas fa-pizza-slice"></i> Calzones</button>
         </li>
         <li class="nav-item" role="presentation" id="menu-item">
-            <button class="nav-link" id="bebidas-tab" data-bs-toggle="tab" data-bs-target="#bebidas" type="button"
+            <button class="nav-link text-secondary" id="bebidas-tab" data-bs-toggle="tab" data-bs-target="#bebidas" type="button"
                 role="tab" aria-controls="bebidas" aria-selected="false"><i class="fas fa-wine-bottle"></i> Bebidas</button>
         </li>
         <li class="nav-item" role="presentation" id="menu-item">
-            <button class="nav-link" id="postres-tab" data-bs-toggle="tab" data-bs-target="#postres" type="button"
+            <button class="nav-link text-secondary" id="postres-tab" data-bs-toggle="tab" data-bs-target="#postres" type="button"
                 role="tab" aria-controls="postres" aria-selected="false"> <i class="fas fa-ice-cream"></i> Postres</button>
         </li>
     </ul>
@@ -92,529 +87,335 @@
 <div class="tab-content" id="myTabContent">
     <div class="tab-pane fade show active " id="pizzas" role="tabpanel" aria-labelledby="pizzas-tab"> 
     <!--   PIZZAS     -->
-<section class="pizzas">
-
-
-
-<div class="row  container-fluid "> 
-
-<div class="col  col-lg-6 col-md-12 d-flex " > 
+<section class="row ">  <!--  CLASICAS   -->
+<div class="col col-lg-6 animate__animated animate__fadeInLeft" id="pizza-img"> 
+</div>
+<div class="col col-lg-6 animate__animated animate__fadeInDownBig"> 
+<div class="row d-flex border-bottom" > 
 <div > 
-<img class="pizzafoto" src="img/hacerpedido/clasicas/mozzarella.jpg" alt="pizza clasica" > 
-</div>
-<div > 
-<h2 >Mozarella</h2>
-<p >Mozarella,Aceitunas Y Orégano</p>
-        <!--        <select name="masa">
-                <option value="piedra">A la Piedra</option> 
-                <option value="molde">Al Molde</option> 
-            </select>
-            <select name="tamaño">
-                <option value="grande">Grande</option> 
-                <option value="chica">Chica</option> 
-            </select>
-            <input type="number" value="cantidad" placeholder="seleccione cantidad">  -->
+    <label class="text-lista">Mozarella</label>
+    <p>Mozarella,Aceitunas Y Orégano</p> 
 </div>
 </div>
 
-<div  class="col col-lg-6 col-md-12 col-sm-12  d-flex"> 
-    <div> 
-        <img class="pizzafoto" src="img/hacerpedido/clasicas/jamon.jpg" alt="pizza clasica">
-    </div>
+<div  class="row d-flex border-bottom"> 
     <div > 
-        <h2>Jamón</h2>
+        <label class="text-lista">Jamón</label>
         <p>Mozarella, Jamón, Aceitunas Y Orégano</p>
-        <!-- 
-        <select name="masa">
-            <option value="piedra">A la Piedra</option> 
-            <option value="molde">Al Molde</option> 
-        </select>
-        <select name="tamaño">
-            <option value="grande">Grande</option> 
-            <option value="chica">Chica</option> 
-        </select>
-        <input type="number" value="cantidad" placeholder="seleccione cantidad">
-    -->
     </div>
 </div>
 
-</div>  <!--cierre clase row -->
-
-
-<!-- SEGUNDA FILA -->
-
-
-<div class="row container-fluid">
-
-<div class="col  col-lg-6 col-md-12 col-sm-12  d-flex" >  
-        <div>
-            <img class="pizzafoto" src="img/hacerpedido/clasicas/napolitana.jpg" alt="pizza clasica">
+<div class="row d-flex border-bottom">
+        <div> 
+        <label class="text-lista">Caprese</label>
+        <p>Mozarella, Rodajas de Tomate, Albahaca, Aceitunas Y Orégano</p>
         </div>
-            <div >
-            <h2>Napolitana</h2>
-            <p>Mozarella, Rodajas de Tomate<br>Provenzal, Aceitunas Y Orégano</p>
-        <!-- <select name="masa">
-                <option value="piedra">A la Piedra</option> 
-                <option value="molde">Al Molde</option> 
-            </select>
-            <select name="tamaño">
-                <option value="grande">Grande</option> 
-                <option value="chica">Chica</option> 
-            </select>
-            <input type="number" value="cantidad" placeholder="seleccione cantidad"> -->
-        </div> 
+</div>
+
+<div class="row d-flex border-bottom" >
+    <div> 
+        <label class="text-lista">Fugazzeta</label>
+        <p>Mozarella, Cebolla, Aceitunas Y Orégano</p>
+    </div>
+</div>
+
+<div class="row d-flex border-bottom" >  
+    <div >
+    <label class="text-lista">Napolitana</label>
+    <p>Mozarella, Rodajas de Tomate, Provenzal, Aceitunas Y Orégano</p>
+</div> 
 </div> 
 
-<div class="col  col-lg-6 col-md-12 col-sm-12  d-flex">
-        <div>
-        <img class="pizzafoto" src="img/hacerpedido/clasicas/caprese.jpg" alt="pizza clasica">
-        </div>
-        <div> 
-        <h2>Caprese</h2>
-        <p>Mozarella, Rodajas de Tomate<br>Albahaca,Aceitunas Y Orégano</p>
-        <!-- <select name="masa">
-            <option value="piedra">A la Piedra</option> 
-            <option value="molde">Al Molde</option> 
-        </select>
-        <select name="tamaño">
-            <option value="grande">Grande</option> 
-            <option value="chica">Chica</option> 
-        </select>
-        <input type="number" value="cantidad" placeholder="seleccione cantidad"> -->
-    </div>
 </div>
+</section> 
 
-</div><!--cierre clase row -->
-
-<!-- TERCERA FILA -->
-<div class="row container-fluid">
-<div class="col  col-lg-6 col-md-12 col-sm-12 d-flex" >
-        <div>
-        <img class="pizzafoto" src="img/hacerpedido/clasicas/fugazeta.jpg" alt="pizza clasica">
-    </div>
+<!-- -------------------ESPECIALES PRIMERA PARTE ------------------------>
+<section class="row" >
+<div class="col col-lg-6"> 
+<div class="row d-flex border-bottom">
     <div> 
-        <h2>Fugazzeta</h2>
-        <p>Mozarella, Cebolla, Aceitunas Y Orégano</p>
-        <!--<select name="masa">
-            <option value="piedra">A la Piedra</option> 
-            <option value="molde">Al Molde</option> 
-        </select>
-        <select name="tamaño">
-            <option value="grande">Grande</option> 
-            <option value="chica">Chica</option> 
-        </select>
-        <input type="number" value="cantidad" placeholder="seleccione cantidad"> -->
-    </div>
-</div>
-
-<div class="col  col-lg-6 col-md-12 col-sm-12  d-flex">
-    <div>
-    <img class="pizzafoto" src="img/hacerpedido/clasicas/mozzarella.jpg" alt="pizza Fugazza" >
-    </div> 
-    <div> 
-    <h2>Fugazza</h2>
-    <p>Cebolla, Aceitunas Y Orégano</p>
-    <!--<select name="masa">
-        <option value="piedra">A la Piedra</option> 
-        <option value="molde">Al Molde</option> 
-    </select>
-    <select name="tamaño">
-        <option value="grande">Grande</option> 
-        <option value="chica">Chica</option> 
-    </select>
-    <input type="number" value="cantidad" placeholder="seleccione cantidad">-->
-</div>
-</div>
-
-</div> <!--cierre clase row -->
-
-<!-- CUARTA FILA -->
-
-<div class="row container-fluid">
-
-<div class="col col-lg-6 col-md-12 col-sm-12  d-flex">
-        <div> 
-        <img class="pizzafoto" src="img/hacerpedido/clasicas/cancha.webp" alt="pizza sin mozzarella" >
-        </div>
-        <div> 
-        <h2>Cancha</h2>
-        <p>Tomate triturado, Aji molido, Provenzal<br> Aceitunas Y Orégano</p>
-        <!--<select name="masa">
-            <option value="piedra">A la Piedra</option> 
-            <option value="molde">Al Molde</option> 
-        </select>
-        <select name="tamaño">
-            <option value="grande">Grande</option> 
-            <option value="chica">Chica</option> 
-        </select>
-        <input type="number" value="cantidad" placeholder="seleccione cantidad"> --> </div>
-</div>
-<div class="col col-lg-6 col-md-12 col-sm-12  d-flex">
-        <div> 
-        <img class="pizzafoto" src="img/hacerpedido/clasicas/cancha.webp" alt="pizza sin mozzarella" >
-        
-    </div>
-    <div> 
-    <h2>Criolla</h2>
-    <p>Tomate triturado,Salsa Criolla<br>Aceitunas Y Orégano</p>
-        <!-- <select name="masa">
-            <option value="piedra">A la Piedra</option> 
-            <option value="molde">Al Molde</option> 
-        </select>
-        <select name="tamaño">
-            <option value="grande">Grande</option> 
-            <option value="chica">Chica</option> 
-        </select>
-        <input type="number" value="cantidad" placeholder="seleccione cantidad">--></div>
-</div>
-
-</div> <!--cierre clase row -->
-<!-- QUINTA FILA -->
-
-<div class="row container-fluid">
-    <div class="col col-lg-6 col-md-12  d-flex">
-        <div>
-        <img class="pizzafoto" src="img/hacerpedido/clasicas/anchoas.webp">
-    </div>
-    <div> 
-        <h2>Anchoas</h2>
-        <p>Tomate triturado, Anchoas, Aceitunas<br> Y Orégano</p>
-        <!--<select name="masa">
-            <option value="piedra">A la Piedra</option> 
-            <option value="molde">Al Molde</option> 
-        </select>
-        <select name="tamaño">
-            <option value="grande">Grande</option> 
-            <option value="chica">Chica</option> 
-        </select>
-        <input type="number" value="cantidad" placeholder="seleccione cantidad">--></div>
-    </div>
-    <div class="col col-lg-6 col-md-12 col-sm-12 d-flex">
-        <div>
-        <img class="pizzafoto" src="img/hacerpedido/especiales/fugazzetarellenasimple.jpg" alt="fugazzetc/jamon"> 
-        </div>
-        <div> 
-            <h2>Fugazzeta con Jamón</h2>
+            <label class="text-lista">Fugazzeta con Jamón</label >
             <p>Mozarella,Jamón, Cebolla, Aceitunas Y Orégano</p>
-    <!--<select name="masa">
-        <option value="piedra">A la Piedra</option> 
-        <option value="molde">Al Molde</option> 
-    </select>
-    <select name="tamaño">
-        <option value="grande">Grande</option> 
-        <option value="chica">Chica</option> 
-    </select>
-    <input type="number" value="cantidad" placeholder="seleccione cantidad">--></div>
     </div>
 </div>
-<!-- SEXTA FILA -->
 
-<div class="row container-fluid">
-    
-        
-        <div class="col col-lg-6 col-md-12 col-sm-12   d-flex">
-            <div>
-            <img class="pizzafoto" src="img/hacerpedido/especiales/fugazzetarellenasimple.jpg" alt="fugazzetac/Panceta">
-            </div>
-            <div> 
-                <h2>Fugazzeta <br> con Panceta</h2>
+<div class="row d-flex border-bottom">
+        <div> 
+                <label class="text-lista">Fugazzeta con Panceta</label >
                 <p>Mozarella,Panceta, Cebolla, Aceitunas Y Orégano</p>
-            <!--<select name="masa">
-                    <option value="piedra">A la Piedra</option> 
-                    <option value="molde">Al Molde</option> 
-                </select>
-                <select name="tamaño">
-                    <option value="grande">Grande</option> 
-                    <option value="chica">Chica</option> 
-                </select>
-                <input type="number" value="cantidad" placeholder="seleccione cantidad">--></div>
         </div>
+</div>
 
-
-        <div class="col col-lg-6 col-md-12 col-sm-12  d-flex" >
+<div class="row d-flex border-bottom" >
             <div>
-            <img class="pizzafoto" src="img/hacerpedido/especiales/fugazzetarellenasimple.jpg" alt="pizza fugazzeta con jamon y panceta "> 
-            </div>
-            <div>
-                <h2>Fugazzeta con <br> Jamón y Panceta</h2>
+                <label class="text-lista">Fugazzeta con Jamón y Panceta</label>
                 <p>Mozarella,Jamón,Panceta, Cebolla, Aceitunas Y Orégano</p>
             </div>
-        </div>
-        
-</div> <!--cierre clase row -->
+</div>
 
-<!-- QUINTA FILA -->
-<div class="row container-fluid">
-        <div class="col col-lg-6 col-md-12 col-sm-12 d-flex">
-            <div> 
-            <img class="pizzafoto" src="img/hacerpedido/especiales/fugazzetarellenasimple.jpg">
-            </div>
+<div class="row d-flex border-bottom">
             <div>
-                <h2>Fugazzeta Rellena</h2>
+                <label class="text-lista">Fugazzeta Rellena</label >
                 <p>Mozarella,Jamón, Cebolla, Aceitunas Y Orégano<br> (rellena con Mozzarella y Jamón)</p>
             </div>
-        </div>
-        
-        <div class="col col-lg-6 col-md-12 col-sm-12 d-flex">
-            <div>
-                <img class="pizzafoto" src="img/hacerpedido/especiales/fugazzetarellenacompleta.jpg">
-            </div>
+</div>
+
+<div class="row d-flex border-bottom">
             <div> 
-                <h2>Fugazzeta Rellena Con panceta</h2>
+                <label class="text-lista">Fugazzeta Rellena Con panceta</label >
                 <p>Mozarella,Jamón,Panceta, Cebolla, Aceitunas Y Orégano<br> (rellena con Mozzarella y Jamón)</p>
             </div>
-        </div>
-</div> <!--cierre clase row -->
+</div>
 
-<!-- SEXTA FILA -->
-<div class="row container-fluid">
-
-<div class="col col-lg-6 col-md-12 col-sm-12 d-flex">
+<div class="row d-flex border-bottom">
         <div>
-        <img class="pizzafoto" src="img/hacerpedido/especiales/jamonymorron.jpg">
-        </div>
-        <div>
-        <h2>Jamón y Morrones</h2>
+        <label class="text-lista">Jamón y Morrones</label >
         <p>Mozarella, Jamón, Morrones, Aceitunas Y Orégano</p>
         </div>
 </div>
 
-<div class="col col-lg-6 col-md-12 col-sm-12 d-flex">
-    <div> 
-    <img class="pizzafoto" src="img/hacerpedido/especiales/jamonyanana.jpg">         
-            </div>
+</div> <!--cierre lista-->
+
+<div class="col col-lg-6 " id="pizza-img-dos"> 
+</div>
+
+</section> <!--Cierre ESPECIALES uno-->
+
+
+<!-- -------------------ESPECIALES SEGUNDA PARTE ------------------------>
+<section class="row">
+
+<div class="col col-lg-6 " id="pizza-img-tres"> 
+</div>
+
+<div class="col col-lg-6">
+
+<div class="row d-flex border-bottom">
             <div> 
-                <h2>Jamón y Anana</h2>
+                <label class="text-lista">Jamón y Anana</label >
                 <p>Mozarella, Jamón, Anana, Aceitunas Y Orégano</p> 
             </div>
 </div>
-</div> <!--cierre clase row -->  
 
-<!-- SEPTIMA  FILA -->
-<div class="row container-fluid">
-<div class="col col-lg-6 col-md-12 col-sm-12 d-flex">
-    <div> 
-        <img class="pizzafoto" src="img/hacerpedido/especiales/napolitanaconjamon.jpg">        
-        </div>
+<div class="row d-flex border-bottom">
             <div> 
-                <h2>Napolitana Con Jamón</h2>
+                <label class="text-lista">Napolitana Con Jamón</label >
                 <p>Mozarella, Rodajas de Tomate, Jamón, Provenzal, Aceitunas Y Orégano</p>
                 </div>
 </div>
 
-<div class="col  col-lg-6 col-md-12 col-sm-12 d-flex">
-    <div> 
-        <img class="pizzafoto" src="img/hacerpedido/especiales/calabresa.jpg">       
-                </div>
+<div class="row d-flex border-bottom">
                 <div> 
-                <h2>Calabresa</h2>
+                <label class="text-lista">Calabresa</label >
                 <p>Mozarella, Calabresa, Aceitunas Y Orégano</p>
             </div>
 </div>
 
-</div>
-<!-- OCTAVA FILA -->
-
-<div class="row container-fluid">
-
-<div class="col col-lg-6 col-md-12 col-sm-12 d-flex">
+<div class="row d-flex border-bottom">
         <div>
-            <img class="pizzafoto" src="img/hacerpedido/especiales/provolone.jpg">
-        </div> 
-        <div>
-            <h2>Provolone</h2>
+            <label class="text-lista">Provolone</label >
             <p>Mozarella, Provolone, Aceitunas Y Orégano</p>
         </div> 
-    </div>
-        
-<div class="col col-lg-6 col-md-12 col-sm-12 d-flex">
-    <div> 
-        <img class="pizzafoto" src="img/hacerpedido/especiales/provolone.jpg">      
-    </div>
+</div>
+
+<div class="row d-flex border-bottom">
     <div>            
-        <h2>Roquefort</h2>
+        <label class="text-lista">Roquefort</label >
         <p>Mozarella, Roquefort, Aceitunas Y Orégano</p>
     </div>
 </div>        
-</div> <!--cierre clase row -->  
 
-<!-- NOVENA FILA -->
-
-<div class="row container-fluid">
-
-<div class="col  col-lg-6 col-md-12 col-sm-12 d-flex">
-            <div>
-                <img class="pizzafoto" src="img/hacerpedido/especiales/española.jpg"> 
-            </div>
-            <div> 
-                <h2>Española</h2>
+<div class="row d-flex border-bottom">
+<div>
+                <label class="text-lista">Española</label >
                 <p>Mozarella, Cantinpalo, Morrón Ahumado, Aceitunas Y Orégano</p> 
             </div>
-        </div>
-        
-<div class="col  col-lg-6 col-md-12 col-sm-12 d-flex" >
-            <div> 
-                <img class="pizzafoto" src="img/hacerpedido/especiales/primavera.jpg"> </div>
-            <div> 
-                <h2>Primavera</h2>
-                <p>Mozarella, Jamón, Tomate en Rodajas, Huevo Rallado, Aceitunas Y Orégano</p>
-            </div> 
-        </div>
 </div>
 
+</div> <!--CIERRE LISTA-->
 
-<!-- DECIMA FILA -->
+</section> <!--Cierre ESPECIALES dos-->
 
-<div class="row container-fluid">
-<div class="col  col-lg-6 col-md-12 col-sm-12 d-flex">
-        <div><img class="pizzafoto" src="img/hacerpedido/especiales/provolone.jpg"></div>
-        <div> 
-        <h2>Palmitos</h2>
+<!------------------------ESPECIALES TERCERA PARTE ---------------->
+<section class="row">
+<div class="col col-lg-6">
+<div class="row d-flex border-bottom" >
+    <div>
+                <label class="text-lista">Primavera</label>
+                <p>Mozarella, Jamón, Tomate en Rodajas, Huevo Rallado, Aceitunas Y Orégano</p>
+            </div> 
+</div>
+
+<div class="row d-flex border-bottom">
+    <div> 
+        <label class="text-lista">Palmitos</label>
         <p>Mozarella, Huevo picado, Palmitos, Salsa Golf, Aceitunas Y Orégano</p>
     </div>
 </div>
-<div class="col col-lg-6 col-md-12 col-sm-12 d-flex">
-        <div><img class="pizzafoto" src="img/hacerpedido/especiales/rucula.jpg"> </div>
-                <div>
-                <h2>Rúcula</h2>
-                <p>Mozarella, Rúcula, parmesano, Aceitunas Y Orégano</p>
+
+<div class="row d-flex border-bottom">
+    <div>
+        <label class="text-lista">Rúcula</label>
+        <p>Mozarella, Rúcula, parmesano, Aceitunas Y Orégano</p>
         </div> 
+</div>  
+
+<div class="row d-flex border-bottom">
+<div> 
+            <label class="text-lista">Rúcula con Jamón crudo</label>
+            <p>Mozarella, Rúcula, Parmesano, Jamón Crudo, Aceitunas Y Orégano</p>
+        </div>
 </div>
 
-</div> <!--cierre clase row --> 
-
-<!-- ONCEAVA FILA -->
-<div class="row container-fluid ">       
-<div class="col  col-lg-6 col-md-12 col-sm-12 d-flex">
-            <div><img class="pizzafoto" src="img/hacerpedido/especiales/ruculaycrudo.jpg"> </div>
-            <div> 
-            <h2>Rúcula con Jamón crudo</h2>
-            <p>Mozarella, Rúcula, Parmesano, Jamón Crudo, <br> Aceitunas Y Orégano</p></div>
-    </div>
-        
-<div class="col col-lg-6 col-md-12 col-sm-12 d-flex" >
-        <div><img class="pizzafoto" src="img/hacerpedido/especiales/jamoncrudo.jpg"> </div>
-        <div>     
-        <h2>Mozzarella y Jamón crudo</h2>
+<div class="row d-flex border-bottom" >  
+    <div>
+        <label class="text-lista">Mozzarella y Jamón crudo</label>
         <p>Mozarella,Jamón Crudo, Aceitunas Y Orégano</p>
     </div>   
 </div>
-</div> <!--cierre ROW -->
-<!-- ULTIMA FILA -->
-<div class="row container-fluid "> 
-<div class="col d-flex" >
+
+<div class="row d-flex border-bottom" >
     <div> 
-    <img class="pizzafoto" src="img/hacerpedido/especiales/provolone.jpg">    
-    </div>
-    <div> 
-    <h2>Tres Quesos</h2>
+    <label class="text-lista">Tres Quesos</label>
     <p>Mozarella,Provolone, Roquefort, Aceitunas Y Orégano</p>
     </div>
 </div>
-</div><!--cierre ULTIMA FILA -->
-</section>
+</div> <!--CIERRE LISTA -->
+
+<div class="col col-lg-6 " id="pizza-img-cuatro"> 
+</div>
+</section> <!--cierre especiales tercera parte-->
+
+<!------------------------PIZZAS SIN MOZZARELLA---------------->
+<section class="row"> 
+
+<div class="col col-lg-6 " id="pizza-img-cinco"> 
+</div>
+
+<div class="col col-lg-6 ">
+<div class="row d-flex border-bottom">
+            <div> 
+            <label class="text-lista">Cancha</label>
+            <p>Tomate triturado, Aji molido, Provenzal, Aceitunas Y Orégano</p>
+    </div>
+</div>
+<div class="row d-flex border-bottom">
+        <div> 
+        <label class="text-lista">Criolla</label>
+        <p>Tomate triturado, Salsa Criolla, Aceitunas Y Orégano</p>
+    </div>
+</div>
+<div class="row d-flex border-bottom">
+        <div> 
+        <label class="text-lista">Fugazza</label>
+        <p>Cebolla, Aceitunas Y Orégano</p>
+        </div>
+</div>
+<div class="row d-flex border-bottom">
+
+        <div> 
+            <label class="text-lista">Anchoas</label>
+            <p>Tomate triturado, Anchoas, Aceitunas, Y Orégano</p>
+            </div>
+</div>
+</div> <!--cierre Lista-->
+
+</section> <!--Cierre SIN MOZZARELLA -->
+
 
 </div><!--cierre PIZZAS -->
 
 <!------------------------EMPANADAS---------------->
 <div class="tab-pane fade  " id="empanadas" role="tabpanel" aria-labelledby="empanadas-tab">
 
-<div class="row container-fluid ">
-            <div class="col d-flex empanada"> 
-            <div>
-            <img class="empanadasfoto" src="img/hacerpedido/empanadas/carnesuave.jpg" alt="empanda-carne" >
-            </div>
+<!--PRIMERA SECCION EMPANADAS-->
+<section class="row"> 
+
+<div class="col col-lg-6"> 
+<div class="row d-flex border-bottom palabras"> 
             <div>
             <li>Carne Suave Molida</li>
             </div>
-            </div>
-            
-            <div class="col d-flex empanada"> 
-                <div>
-                <img class="empanadasfoto" src="img/hacerpedido/empanadas/carnepicante.jpg" alt="empanda-carne"  >
-                </div>
+</div>
+
+<div class="row d-flex border-bottom palabras"> 
+
                 <div>
                 <li>Carne Picante Molida</li>
                 </div>
-                </div>
-            
-                <div class="col d-flex empanada"> 
-                    <div>
-                    <img class="empanadasfoto" src="img/hacerpedido/empanadas/carnecuchillo.jpg"  alt="empanda-carne" >
-                    </div>
-                    <div>
-                    <li>Carne Suave Cortada a Cuchillo</li>
-                    </div>
-                    </div>
-</div>    
+</div>
 
-<div  class="row  container-fluid ">          
-    <div class="col d-flex empanada"> 
-        <div>
-        <img class="empanadasfoto" src="img/hacerpedido/empanadas/pollo.jpg"  alt="empanda-pollo" >
-        </div>
-        <div>
-        <li>Pollo</li>
-        </div>
-        </div>
-
-        <div class="col d-flex empanada"> 
-            <div> <img class="empanadasfoto" src="img/hacerpedido/empanadas/humita.jpg" alt="empanda-humita"> </div>
-            <div>  <li>Humita</li></div>
-            
-        </div>
-            <div class="col d-flex empanada"> 
-                <div><img class="empanadasfoto" src="img/hacerpedido/empanadas/caprese.jpg" alt="empanda-caprese"> </div>
-                <div><li>Caprese</li></div>
-                </div>
-</div>  
-
-<div  class="row  container-fluid "> 
-    <div class="col d-flex empanada"> 
-        <div><img class="empanadasfoto" src="img/hacerpedido/empanadas/roquefort.jpg" alt="empanda-roque"></div>
-        <div><li>Roquefort</li></div>
+<div class="row d-flex border-bottom palabras"> 
+    <div>
+        <li>Carne Suave Cortada a Cuchillo</li>
     </div>
-        <div class="col d-flex empanada"> 
-            <div><img class="empanadasfoto" src="img/hacerpedido/empanadas/jamonyqueso.jpg" alt="empanda-jamonyqueso" > </div>
-            <div><li>Jamón y Queso </li></div>
-            </div>
-            <div class="col d-flex empanada"> 
-                <div>
-                <img class="empanadasfoto" src="img/hacerpedido/empanadas/quesoycebolla.jpg" alt="empanda-cebollayqueso" >
-                </div>
-                <div>
-                <li>Queso y Cebolla</li>
-                </div>
-                </div>
-</div>    
-<div  class="row  container-fluid ">   
-    <div class="col d-flex empanada"> 
-        <div>
-        <img class="empanadasfoto" src="img/hacerpedido/empanadas/verdura.jpg" alt="empanda-verdura">
-        </div>
+</div>
+
+<div class="row d-flex border-bottom palabras"> 
+    <div>
+        <li>Pollo</li>
+    </div>
+</div>
+</div> <!--cierre lista-->
+
+<div class="col col-lg-6 " id="pizza-img-cuatro"> 
+</div>
+</section>
+
+<!--SEGUNDA SECCION EMPANADAS-->
+<section class="row"> 
+<div class="col col-lg-6 " id="pizza-img-dos"> 
+</div>
+<div class="col col-lg-6">
+<div class="row d-flex border-bottom palabras"> 
+        <div>  <li>Humita</li></div>
+</div>
+
+<div class="row d-flex border-bottom palabras"> 
+        <div><li>Caprese</li></div>
+</div>
+
+<div class="row d-flex border-bottom palabras"> 
+<div><li>Roquefort</li></div>
+</div>
+
+<div class="row d-flex border-bottom palabras"> 
+        <div><li>Jamón y Queso </li></div>
+</div>
+</div> <!--cierre lista-->
+</section>
+
+<!--TERCERA SECCION EMPANADAS-->
+<section class="row"> 
+
+<div class="col col-lg-6"> 
+<div class="row d-flex border-bottom palabras"> 
+    <div>
+        <li>Queso y Cebolla</li>
+    </div>
+</div>
+
+<div class="row d-flex border-bottom palabras"> 
         <div>
         <li>Verdura</li>
         </div>
-        </div>
-        <div class="col d-flex empanada"> 
-            <div>
-            <img class="empanadasfoto" src="img/hacerpedido/empanadas/española.jpg"  alt="empanda-española">
-            </div>
-            <div>
-            <li>Española</li>
-            </div>
-            </div>
-            <div class="col d-flex empanada"> 
-                <div>
-                <img class="empanadasfoto" src="img/hacerpedido/empanadas/calabresa.jpg"alt="empanda-calabresa" >
-                </div>
-                <div>
-                <li>Calabresa</li>
-                </div>
-                </div>
-</div>      
-
 </div>
+<div class="row d-flex border-bottom palabras"> 
+    <div>
+            <li>Española</li>
+    </div>
+</div>
+<div class="row d-flex border-bottom palabras"> 
+    <div>
+        <li>Calabresa</li>
+    </div>
+</div>
+</div> <!--CIERRE LISTA-->
+<div class="col col-lg-6 " id="pizza-img"> 
+</div>
+</section>  <!--CIERRE TERCERA SECCION-->   
+
+</div> <!--CIERRE EMPANADAS-->
 
 <!------------------------Calzones---------------->
     <div class="tab-pane fade" id="calzones" role="tabpanel" aria-labelledby="calzones-tab">...</div>
@@ -624,143 +425,73 @@
 <!------------------------Postres---------------->
     <div class="tab-pane fade" id="postres" role="tabpanel" aria-labelledby="postres-tab">
 
+<section class="row"> 
+<div class="col col-lg-6 postre-img"> 
+</div>
+<div class="col col-lg-6 "> 
+<div class="row d-flex border-bottom palabras">
+<div> <li>Dulce de Leche Tentación</li> </div> 
+</div> 
+<div class="row d-flex border-bottom palabras">
+        <div><li>Chocolate Doble Tentación</li></div> 
+</div>
+<div class="row d-flex border-bottom palabras">
+        <div><li>Frutilla a la Crema</li></div>
+</div>
+</div> <!-- CIERRE LISTA -->
+</section> <!--CIERRE PRIMER SECCION-->
 
-<h3>Helados Freddo </h3> 
-<div class="row container-fluid helados"> 
-        <div class="col d-flex">
-            <div> <img class="heladofoto" src="img/hacerpedido/postres/ddl.png"></div>
-            <div> <li>Dulce de Leche Tentación</li></div> 
-                
-            </div>
-        <div class="col d-flex">
-            <div><img class="heladofoto" src="img/hacerpedido/postres/chocot.png"></div>
-            <div><li>Chocolate Doble Tentación</li></div> 
-                
-        </div><div class="col d-flex">
-                <div><img class="heladofoto" src="img/hacerpedido/postres/frutilla.png"></div>
-                <div><li>Frutilla a la Crema</li></div>
-            </div>
-</div> <!--cierre row -->
 
-<div class="row container-fluid helados"> 
-            <div class="col d-flex">
-                <div><img class="heladofoto" src="img/hacerpedido/postres/cookies.png"></div>
-                <div><li>Cookies And Cream</li></div>
-                </div>
+<section class="row"> 
+<div class="col col-lg-6">
+<div class="row d-flex border-bottom palabras">
+                <div><li>Cookies And Cream</li>
+               </div>
+</div>
 
-            <div class="col d-flex">
-                <div><img class="heladofoto" src="img/hacerpedido/postres/chocodark.png"></div> 
+<div class="row d-flex border-bottom palabras">
+
                 <div><li>Chocolate Dark</li></div> 
-            </div>
-<div class="col d-flex">
-                <div><img class="heladofoto" src="img/hacerpedido/postres/mascarpone.png"></div>
-                <div><li>Mascarpone</li></div>
-            </div>
+</div>
 
-        
-        </div> <!--cierre row -->
-<div class="row container-fluid helados"> 
-<div class="col d-flex">
-                <div> <img class="heladofoto" src="img/hacerpedido/postres/banana.png">
-                </div>
-            <div>  <li>Banana Split</li> </div>
+<div class="row d-flex border-bottom palabras">
+<div><li>Mascarpone</li></div>
+</div>
 
-            </div>
-</div> <!--cierre row -->
+<div class="row d-flex border-bottom palabras">
+    <div>  <li>Banana Split</li> </div>
+</div>
+</div> <!-- CIERRE LISTA -->
+<div class="col col-lg-6 postre-img"> 
+</div>
+</section> <!--CIERRE SEGUNDA SECCION-->
 
-<h3>Bombones rellenos </h3>
+<section class="row ">
+<div class="col col-lg-6 postre-img"> 
+</div>
 
-<div class="row container-fluid helados">
-            
-            <div class="col d-flex">
-                <div><img class="postrefoto" src="img/hacerpedido/postres/bombonddl.png"></div>
-                <div> <li>Dulce de Leche</li></div>
-            </div>
-            <div class="col d-flex ">
-                    <div> <img class="postrefoto" src="img/hacerpedido/postres/bombonamer.png"></div>
-                    <div><li>Crema Americana</li></div>
-            </div>
-            <div class="col d-flex">
-                    <div><img class="postrefoto" src="img/hacerpedido/postres/bombongio.png"></div>
-                    <div><li>Fresas banadas en Chocolate</li></div>
-            </div>
-</div> <!--CIERRE bombones-->
+<div class="col col-lg-6">
+<div class="row d-flex border-bottom palabras">
+                <div> <li>Bombones rellenos de Dulce de Leche</li></div>
+</div>
+<div class="row d-flex border-bottom palabras">
+    <div><li>Bombones rellenos de Crema Americana</li></div>
+</div>
+<div class="row d-flex border-bottom palabras">
+        <div><li>Fresas cubiertas con Chocolate</li></div>
+</div>
+</div><!-- CIERRE LISTA -->
+</section> <!--CIERRE SEGUNDA SECCION-->
+
+
+
 
 </div>  <!-- CIERRE CONTENEDOR PRODUCTOS -->
-</Section>
-
-
-<!--AGREGAR DESPUES
-<h3>Adicionales</h3>
-<li>Mozzarella</li>
-<input type="number" value="cantidad" placeholder="seleccione cantidad">
-    <select name="media-entera">
-            <option value="media">Media pizza </option> 
-            <option value="entera">pizza entera </option> 
-            </select>
-<li>Salsa</li>
-<input type="number" value="cantidad" placeholder="seleccione cantidad">
-    <select name="media-entera">
-            <option value="media">Media pizza </option> 
-            <option value="entera">pizza entera </option> 
-            </select>
-<li>Tomate</li>
-<input type="number" value="cantidad" placeholder="seleccione cantidad">
-    <select name="media-entera">
-            <option value="media">Media pizza </option> 
-            <option value="entera">pizza entera </option> 
-            </select>
-<li>Jamon</li>
-<input type="number" value="cantidad" placeholder="seleccione cantidad">
-    <select name="media-entera">
-            <option value="media">Media pizza </option> 
-            <option value="entera">pizza entera </option> 
-            </select>
-<li>Huevo</li>
-<input type="number" value="cantidad" placeholder="seleccione cantidad">
-    <select name="media-entera">
-            <option value="media">Media pizza </option> 
-            <option value="entera">pizza entera </option> 
-            </select>
-<li>Anchoas</li>
-<input type="number" value="cantidad" placeholder="seleccione cantidad">
-    <select name="media-entera">
-            <option value="media">Media pizza </option> 
-            <option value="entera">pizza entera </option> 
-            </select>
-<li>Champiñones</li>
-<input type="number" value="cantidad" placeholder="seleccione cantidad">
-    <select name="media-entera">
-            <option value="media">Media pizza </option> 
-            <option value="entera">pizza entera </option> 
-            </select>
-<li>Otros</li> <input type="text" value="ingrediente" placeholder="ingrese ingrediente">
-    <select name="media-entera">
-            <option value="media">Media pizza </option> 
-            <option value="entera">pizza entera </option> 
-            </select>
-<h3>Fainas</h3>
-<li>Faina Común</li>
-<input type="number" value="cantidad" placeholder="seleccione cantidad">
-<li>Faina Con Verdeo</li>
-<input type="number" value="cantidad" placeholder="seleccione cantidad">
-<li>Faina Con Provenzal</li>
-<input type="number" value="cantidad" placeholder="seleccione cantidad">
-</ul>
 
 
 
-<div >
-<form class="formulario">
-<label>Nombre</label>
-<input type="text" placeholder="Ingrese su Nombre" required> 
-<label>Dirección</label>
-<input type="text" placeholder="Calle y altura"> <input type="text" placeholder="Depto/casa (timbre)" required> 
-<label>Teléfono</label>
-<input type="text"  placeholder="Ingrese teléfono de Contacto" required> 
-</form>
-</div>
--->
+
+
 
 <!--Pie de pagina-->
 <footer class="footer ">

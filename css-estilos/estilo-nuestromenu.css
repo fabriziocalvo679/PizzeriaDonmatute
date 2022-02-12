@@ -1,15 +1,11 @@
 /* FONDO DE LA PAGINA  */
-.fondo{background-color: rgb(14, 14, 14);}
+body {background-color: black}
 *{ padding:0px;
 margin:0px;
 }
 /* ---------BARRA DE NAVEGACION MENU PRINCIPAL-----------*/
-.logo{width: 80px;
-height: auto;
-padding-left: 30px;
-padding-right: 10px;
-}
-.logo img { width: 80px;
+.logo-img { margin-left: 60px;
+width: 60px;
 height: auto;}
 
 .contenedor-navegacion {
@@ -18,121 +14,104 @@ padding-left: 570px;}
 .barra-navegacion li {padding-inline: 15px;}
 
 
-.titulo {font-family: 'Open Sans', sans-serif;
+.titulo {font-family: 'Dancing Script', cursive;
 font-size:  50px; 
 text-align: center;
-padding: 100px;
-color: rgb(2, 1, 0);
-background-image: url(../img/nosotros/pizzaslice.jpg);
+padding: 10px;
+color: beige;
+}
+
+.contenedor-menu { background-image: url(../img/hacerpedido/banner.jpg);
 background-size: cover;
 background-repeat: no-repeat;
 background-position: center;
-width: auto;
-height: auto;
 }
-
 
 /* ---------BARRA DE NAVEGACION PEDIDO -----------*/
 #menu-item {
 font-family:'Open Sans', sans-serif;}
 .menu-navegacion {justify-content: center
 } 
+/* ---------------------- PIZZAS-------------------------- */
+#pizza-img {background-image: url(../img/hacerpedido/mozza.jpg);
+background-size: cover;
+background-repeat: no-repeat;
+background-position: center;}
+
+#pizza-img-dos {background-image: url(../img/hacerpedido/pizza_napolitana_32625_orig.jpg);
+background-size: cover;
+background-repeat: no-repeat;
+background-position: center;}
+
+#pizza-img-tres {background-image: url(../img/hacerpedido/pizza-jamon-y-morron.jpg);
+background-size: cover;
+background-repeat: no-repeat;
+background-position: center;}
+
+
+#pizza-img-cuatro {background-image: url(../img/hacerpedido/rucula-y-parmesano.jpg);
+background-size: cover;
+background-repeat: no-repeat;
+background-position: center;}
+
+#pizza-img-cinco {background-image: url(../img/hacerpedido/pizzadecancha.jpg);
+background-size: cover;
+background-repeat: no-repeat;
+background-position: center;}
 
 
 
 /* ---------Tipografias -----------*/
-
-
-
-h2 {font-family: 'Dancing Script', cursive;
-text-align: start;
-font-size:  25px;
-padding-left: 10px;
-color: bisque;
-}
-
-
-
-h3 {font-family:'Open Sans', sans-serif;
-text-align: center;
-padding: 35px;
+.palabras{ text-align: center;
+padding:15px;
+align-items: center;
+list-style-type: none;
+font-size: 20px;
+font-family: 'Dancing Script', cursive;
 color: beige;
 }
 
-p {
+
+.text-lista {text-align: center;
+    padding:15px;
+    align-items: center;
+    list-style-type: none;
+    font-size: 23px;
+    font-family: 'Dancing Script', cursive;
+    color: beige;
+}
+
+
+p { text-align: start;
 font-family: 'Open Sans', sans-serif;
 text-transform: lowercase;
-color: beige;}
-
-.empanada li{ list-style: none;
 color: beige;
-font-size: 20px;
-font-family: 'Dancing Script', cursive;
-margin-left: 10px; }
-
-.helados  li{ list-style: none;
-color: beige;
-font-size: 20px;
-font-family: 'Dancing Script', cursive;
-margin-left: 10px; }
-/* ----------------------imagenes-------------------------- */
-
-img:hover {border-radius:0rem;
-}
-.pizzafoto 
-{border-radius: 4rem;
-width: 96px;
-height: 96px ;
-}
-.calzonefoto
-{width: 96px;
-height: 96px ;
-border-radius: 4rem;}
-
-.empanadasfoto  {width: auto;
-height: 96px ;
-border-radius: 4rem;
-}
-
-.fotobebida  {width: auto;
-height: 96px ;
-}
-.fotobebida-litro {height: 96px;
-width:auto;}
-
-.postrefoto 
-{width: 115px;
-height: 110px ;
-border-radius: 4rem;
-}
-.heladofoto { width: 115px;
-height: 110px;
-border-radius: 4rem;}
+font-size: 15px;
+padding-left: 10px;
+padding-bottom: 5px;}
 
 
 
-/* ---------------------- CONTENEDORES-------------------------- */
-
-.pizzas col {margin-left: 30px;
-padding: 10px;}
-.pizzas .col:hover {background-color: rgb(18, 18, 18);}
+/* ---------------------- EMPANADAS-------------------------- */
 
 
-.empanada{ justify-content: stretch;
-padding:20px;
-align-items: center;}
 .empanada:hover {background-color: rgb(18, 18, 18);
 }
 
-.helados {padding: 15px;}
-.helados .col:hover{background-color: rgb(18, 18, 18);}
 
+
+/* ---------------------- POSTRES-------------------------- */
+
+.postre-img {background-image: url(../img/hacerpedido/frutilla.png);
+background-size: cover;
+background-repeat: no-repeat;
+background-position: center;}
 
 /* ---------PIE DE PAGINA  -----------*/
 .footer 
 {display: flex;
 align-items: center;
-background-color: rgb(8, 8, 8);
+background-color: rgb(0, 0, 0);
 padding-top: 15px;
 } 
 .footer li {list-style:none;

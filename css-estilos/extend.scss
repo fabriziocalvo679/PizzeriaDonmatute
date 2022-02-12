@@ -1,8 +1,0 @@
-//EXTEND 
-.palabras {
-font-size: 20px;
-font-family:'Open Sans', sans-serif;
-}
-.titulos { @extend .palabras; 
-font-family:'Dancing Script', cursive;
-}

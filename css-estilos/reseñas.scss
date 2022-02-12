@@ -1,0 +1,30 @@
+@import "variables";
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Open+Sans:ital,wght@0,400;1,500&display=swap');
+
+
+//menu de navegacion 
+
+@import "navbar";
+.contenedor-menu { background-color: black}
+
+
+
+//cuerpo 
+
+.encabezado {padding: 20px;
+text-align: center;
+font-family: $font-titulos;
+font-size: 25px;
+color: $color-titulos;}
+.reseñas {padding: 30px;}
+.profile img {width:150px;
+height:auto;
+border-radius: 6rem}
+.name { padding: 15px;
+font-family: $font-titulos;
+font-size: 25px}
+.palabras{padding: 10px}
+.buttons{ padding: 10px}
+.star { color: yellow}
+//footer 
+@import "footer";

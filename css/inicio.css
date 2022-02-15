@@ -3,6 +3,7 @@
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+  background-attachment: fixed;
 }
 
 * {
@@ -22,6 +23,11 @@
 
 .barra-navegacion li {
   padding-inline: 35px;
+}
+
+.contenedor-navegacion ul li:hover {
+  background-color: #f0b971;
+  border-radius: 6rem;
 }
 
 #text-menu {
@@ -63,14 +69,16 @@
 }
 
 #pizzeria {
-  color: #bbbe09;
+  color: #6b6969;
   font-family: 'Open Sans', sans-serif;
+  font-weight: lighter;
   font-size: 80px;
 }
 
 #don-matute {
-  color: #160101;
+  color: #0e160e;
   font-family: 'Dancing Script', cursive;
+  font-weight: lighter;
   font-size: 80px;
 }
 

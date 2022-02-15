@@ -2,7 +2,7 @@
 body {
   padding: 0px;
   margin: 0px;
-  background-color: black;
+  background-color: #070707;
 }
 
 /* ---------TIPOGRAFIAS-----------*/
@@ -40,6 +40,11 @@ body {
   padding-inline: 35px;
 }
 
+.contenedor-navegacion ul li:hover {
+  background-color: #f0b971;
+  border-radius: 6rem;
+}
+
 #text-menu {
   font-family: 'Open Sans', sans-serif;
   text-align: center;
@@ -71,16 +76,17 @@ body {
   }
 }
 
-.contenedor-menu {
-  background-image: url(../img/background.jpg);
-}
-
 /* ---------ENCABEZADO Y COLUMNAS -----------*/
 .encabezado {
-  padding: 15px;
+  padding: 150px;
   text-align: center;
   color: #f0c693;
   font-family: 'Dancing Script', cursive;
+  background-image: url(../img/33.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
 }
 
 #iconos {
@@ -103,7 +109,7 @@ body {
 
 .redes-icon {
   padding: 15px;
-  color: beige;
+  color: bisque;
   font-size: 35px;
 }
 

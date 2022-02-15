@@ -27,6 +27,11 @@
   padding-inline: 35px;
 }
 
+.contenedor-navegacion ul li:hover {
+  background-color: #f0b971;
+  border-radius: 6rem;
+}
+
 #text-menu {
   font-family: 'Open Sans', sans-serif;
   text-align: center;
@@ -63,6 +68,12 @@
   font-family: "Dancing Script", cursive;
   font-size: 25px;
   color: #f0c693;
+  padding: 150px;
+  background-image: url(../img/35.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
 }
 
 /*--------- CONTENEDOR FLEX UNO ---------- */
@@ -89,7 +100,9 @@
 
 #nosotros-img {
   width: 450px;
-  height: auto;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
 }
 
 #parrafo {

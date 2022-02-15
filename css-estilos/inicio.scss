@@ -6,6 +6,7 @@
 background-repeat:no-repeat;
 background-position:center;
 background-size:cover;
+background-attachment:fixed;
 }
 
 //Menu de navegacion 
@@ -19,16 +20,17 @@ padding: 300px;
 position: center;
 }
 
-#pizzeria {color: rgb(187, 190, 9);
-font-family:'Open Sans', sans-serif;
-font-size: 80px;
-}
-
-#don-matute {color:rgb(22, 1, 1);
-font-family: 'Dancing Script', cursive;
-font-size: 80px;
-}
-
+#pizzeria {color: rgb(107, 105, 105);
+    font-family:'Open Sans', sans-serif;
+    font-weight: lighter;
+    font-size: 80px;
+    }
+    
+    #don-matute {color:rgb(14, 22, 14);
+    font-family: 'Dancing Script', cursive;
+    font-weight: lighter;
+    font-size: 80px;
+    }
 /* ---------PIE DE PAGINA  -----------*/
 @import "footer";
 

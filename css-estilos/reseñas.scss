@@ -11,13 +11,19 @@
 
 //cuerpo 
 
-.encabezado {padding: 20px;
+.encabezado { padding: 150px;
 text-align: center;
 font-family: $font-titulos;
 font-size: 25px;
-color: $color-titulos;}
+color: $color-titulos;
+background-image: url(../img/36.jpg);
+background-size: cover;
+background-repeat: no-repeat;
+background-position: center;
+background-attachment: fixed;
+}
 .reseñas {padding-top: 6rem;
-padding-bottom: 8rem;
+padding-bottom: 10rem;
 padding-left: 15px;
 padding-right: 15px;}
 

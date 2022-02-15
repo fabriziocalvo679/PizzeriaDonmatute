@@ -12,25 +12,30 @@ height: auto;}
 padding-left: 150px;}
 
 .barra-navegacion li {padding-inline: 35px;}
+.contenedor-navegacion ul li:hover { background-color: rgb(240, 185, 113);
+border-radius: 6rem;}
 
 .titulo {font-family: 'Dancing Script', cursive;
 font-size:  50px; 
 text-align: center;
-padding: 10px;
-color: beige;
-}
-
-.contenedor-menu { background-image: url(../img/hacerpedido/banner.jpg);
+padding: 150px;
+color: black;
+background-image: url(../img/hacerpedido/banner.jpg);
 background-size: cover;
 background-repeat: no-repeat;
 background-position: center;
+background-attachment: fixed;
 }
 
+
 /* ---------BARRA DE NAVEGACION PEDIDO -----------*/
-#menu-item {
-font-family:'Open Sans', sans-serif;}
-.menu-navegacion {justify-content: center
-} 
+#menu-item {font-family:'Open Sans', sans-serif;}
+
+.menu-navegacion {justify-content: center} 
+
+.menu-navegacion li {padding-inline: 50px;}
+
+
 /* ---------------------- PIZZAS-------------------------- */
 #pizza-img {background-image: url(../img/hacerpedido/mozza.jpg);
 background-size: cover;
@@ -105,7 +110,7 @@ padding-bottom: 5px;}
 background-size: cover;
 background-repeat: no-repeat;
 background-position: center;
-object-fit: cover;}
+background-attachment:contain;}
 
 /* ---------PIE DE PAGINA  -----------*/
 .footer 

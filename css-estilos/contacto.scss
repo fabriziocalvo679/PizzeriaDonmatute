@@ -4,7 +4,7 @@
 
 body {padding: 0px;
 margin: 0px;
-background-color: rgb(0, 0, 0);
+background-color: rgb(7, 7, 7);
 }
 
 /* ---------TIPOGRAFIAS-----------*/
@@ -23,13 +23,20 @@ padding: 2px}
 /* ---------Barra de Navegacion del menu -----------*/
 @import "navbar";
 
-.contenedor-menu {background-image: url(../img/background.jpg);}
+
+
+
 
 /* ---------ENCABEZADO Y COLUMNAS -----------*/
-.encabezado { padding: 15px;
+.encabezado { padding: 150px;
 text-align: center;
 color:$color-titulos;
 font-family: 'Dancing Script', cursive;
+background-image: url(../img/33.jpg);
+background-size: cover;
+background-repeat: no-repeat;
+background-position: center;
+background-attachment: fixed;
 }
 
 #iconos {
@@ -44,13 +51,13 @@ padding: 40px;
 
 
 .redes-sociales {text-align: center;
-a {text-decoration: none;} }
+a {text-decoration: none;
+}
 
-
+}
 .redes-icon{padding: 15px;
-color: beige;
+color: bisque;
 font-size: 35px;}
-
 
 /* ----------------------FORMULARIO-------------------------- */
 

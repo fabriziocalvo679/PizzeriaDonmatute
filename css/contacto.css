@@ -33,11 +33,11 @@ body {
 }
 
 .contenedor-navegacion {
-  padding-left: 570px;
+  padding-left: 150px;
 }
 
 .barra-navegacion li {
-  padding-inline: 15px;
+  padding-inline: 35px;
 }
 
 #text-menu {

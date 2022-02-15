@@ -13,9 +13,9 @@ width: 60px;
 height: auto;}
 
 .contenedor-navegacion {
-padding-left: 570px;}
+padding-left: 150px;}
 
-.barra-navegacion li {padding-inline: 15px;}
+.barra-navegacion li {padding-inline: 35px;}
 
 
 
@@ -27,13 +27,13 @@ padding: 250px;
 position: center;
 }
 
-#pizzeria {color: rgb(163, 163, 163);
+#pizzeria {color: rgb(107, 105, 105);
 font-family:'Open Sans', sans-serif;
 font-weight: lighter;
 font-size: 80px;
 }
 
-#don-matute {color:rgb(19, 71, 15);
+#don-matute {color:rgb(14, 22, 14);
 font-family: 'Dancing Script', cursive;
 font-weight: lighter;
 font-size: 80px;

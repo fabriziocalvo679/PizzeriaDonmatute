@@ -12,11 +12,11 @@
 }
 
 .contenedor-navegacion {
-  padding-left: 570px;
+  padding-left: 150px;
 }
 
 .barra-navegacion li {
-  padding-inline: 15px;
+  padding-inline: 35px;
 }
 
 #text-menu {
@@ -63,7 +63,10 @@
 }
 
 .reseñas {
-  padding: 30px;
+  padding-top: 6rem;
+  padding-bottom: 8rem;
+  padding-left: 15px;
+  padding-right: 15px;
 }
 
 .profile img {

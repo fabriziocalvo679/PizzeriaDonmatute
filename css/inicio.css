@@ -88,8 +88,8 @@ body {
 
 /* ---------SEGUNDA SECCION  -----------*/
 .segunda-seccion {
-  padding-top: 100px;
-  padding-bottom: 100px;
+  padding-top: 80px;
+  padding-bottom: 80px;
   padding-left: 50px;
   padding-right: 50px;
   text-align: center;
@@ -100,7 +100,7 @@ body {
   font-family: "Dancing Script", cursive;
   font-size: 50px;
   color: black;
-  margin-top: 50px;
+  margin-top: 80px;
   padding: 150px;
   background-image: url(../img/35.jpg);
   background-size: cover;
@@ -140,7 +140,7 @@ body {
 
 .foto-envios {
   padding-top: 100px;
-  padding-bottom: 100px;
+  padding-bottom: 30px;
 }
 
 /* ---------PIE DE PAGINA  -----------*/
@@ -158,6 +158,12 @@ body {
 
 .footer li {
   list-style: none;
+}
+
+.footer li a:hover {
+  padding: 8px;
+  background-color: #f0b971;
+  border-radius: 2rem;
 }
 
 .footer a {

@@ -119,6 +119,12 @@
   list-style: none;
 }
 
+.footer li a:hover {
+  padding: 8px;
+  background-color: #f0b971;
+  border-radius: 2rem;
+}
+
 .footer a {
   text-decoration: none;
 }

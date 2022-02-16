@@ -1,3 +1,7 @@
+body {
+  background-color: black;
+}
+
 #background {
   background-image: url(../img/background.jpg);
   background-repeat: no-repeat;
@@ -13,7 +17,7 @@
 
 .logo-img {
   margin-left: 60px;
-  width: 60px;
+  width: 40px;
   height: auto;
 }
 
@@ -45,23 +49,23 @@
 /* ---------RESPONSIVE -----------*/
 @media (max-width: 992px) {
   .contenedor-navegacion {
-    padding-left: 0px;
+    padding-left: 35px;
   }
   .barra-navegacion li {
-    padding-inline: 65px;
+    padding-inline: 30px;
   }
 }
 
 @media (max-width: 768px) {
   .contenedor-navegacion {
-    padding-left: 0px;
+    padding-left: 35px;
   }
   .barra-navegacion li {
-    padding-inline: 65px;
+    padding-inline: 30px;
   }
 }
 
-/* ---------SECCION CENTRAL -----------*/
+/* ---------PRIMERA SECCION  -----------*/
 .texto-central {
   text-align: center;
   padding: 300px;
@@ -80,6 +84,63 @@
   font-family: 'Dancing Script', cursive;
   font-weight: lighter;
   font-size: 80px;
+}
+
+/* ---------SEGUNDA SECCION  -----------*/
+.segunda-seccion {
+  padding-top: 100px;
+  padding-bottom: 100px;
+  padding-left: 50px;
+  padding-right: 50px;
+  text-align: center;
+}
+
+.encabezado {
+  text-align: center;
+  font-family: "Dancing Script", cursive;
+  font-size: 50px;
+  color: black;
+  margin-top: 50px;
+  padding: 150px;
+  background-image: url(../img/35.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+.recuadros {
+  background-color: beige;
+}
+
+.recuadros h5 {
+  font-family: 'Dancing Script';
+  color: black;
+}
+
+.recuadros p {
+  font-family: "Open Sans", sans-serif;
+  color: #686666;
+}
+
+/* ---------TERCERA SECCION ENVIO -----------*/
+.encabezado-envio {
+  text-align: center;
+  font-family: "Dancing Script", cursive;
+  font-size: 50px;
+  color: black;
+  margin-top: 50px;
+  padding: 150px;
+  background-image: url(../img/33.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+.foto-envios {
+  padding-top: 100px;
+  padding-bottom: 100px;
 }
 
 /* ---------PIE DE PAGINA  -----------*/

@@ -5,7 +5,7 @@ margin:0px;
 }
 /* ---------BARRA DE NAVEGACION MENU PRINCIPAL-----------*/
 .logo-img { margin-left: 60px;
-width: 60px;
+width: 40px;
 height: auto;}
 
 .contenedor-navegacion {
@@ -160,9 +160,9 @@ text-align:center;}
 @media (max-width: 992px) {
 
 .contenedor-navegacion {
-padding-left: 30px;}
+padding-left: 35px;}
 
-.barra-navegacion li {padding-inline: 5px;}
+.barra-navegacion li {padding-inline: 30px;}
 }
 
 

@@ -28,7 +28,7 @@ body {
 
 .logo-img {
   margin-left: 60px;
-  width: 60px;
+  width: 40px;
   height: auto;
 }
 
@@ -60,19 +60,19 @@ body {
 /* ---------RESPONSIVE -----------*/
 @media (max-width: 992px) {
   .contenedor-navegacion {
-    padding-left: 0px;
+    padding-left: 35px;
   }
   .barra-navegacion li {
-    padding-inline: 65px;
+    padding-inline: 30px;
   }
 }
 
 @media (max-width: 768px) {
   .contenedor-navegacion {
-    padding-left: 0px;
+    padding-left: 35px;
   }
   .barra-navegacion li {
-    padding-inline: 65px;
+    padding-inline: 30px;
   }
 }
 

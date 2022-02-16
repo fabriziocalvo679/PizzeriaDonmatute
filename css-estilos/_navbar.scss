@@ -4,8 +4,10 @@ padding: 0px;}
 
 
 .logo-img { margin-left: 60px;
-width: 60px;
-height: auto;}
+width: 40px;
+height: auto;
+}
+
 
 .contenedor-navegacion {
 padding-left: 150px;}
@@ -28,18 +30,18 @@ color: beige;
 
 @media (max-width: 992px) {
 
-    .contenedor-navegacion {
-        padding-left: 0px;}
-        
-        .barra-navegacion li {padding-inline: 65px;}
-        }
+.contenedor-navegacion {padding-left: 35px;}
+
+
+.barra-navegacion li {padding-inline: 30px;}
+}
 
 
 @media (max-width: 768px) {
 
-.contenedor-navegacion {
-padding-left: 0px;}
+.contenedor-navegacion {padding-left: 35px;}
 
-.barra-navegacion li {padding-inline: 65px;}
+
+.barra-navegacion li {padding-inline: 30px;}
 
 }

@@ -1,5 +1,10 @@
 /* FONDO DE LA PAGINA  */
-body {background-color: black}
+body {background-color: black;}
+.back-img {background-image: url(../img/hacerpedido/Diseño\ sin\ título.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment:fixed;}
 *{ padding:0px;
 margin:0px;
 }
@@ -20,12 +25,10 @@ font-size:  50px;
 text-align: center;
 padding: 150px;
 color: black;
-background-image: url(../img/hacerpedido/banner.jpg);
+background-image: url(../img/hacerpedido/banner2.jpg);
 background-size: cover;
 background-repeat: no-repeat;
-background-position: center;
-background-attachment: fixed;
-}
+background-position: center;}
 
 
 /* ---------BARRA DE NAVEGACION PEDIDO -----------*/
@@ -97,7 +100,20 @@ padding-bottom: 5px;}
 
 
 /* ---------------------- EMPANADAS-------------------------- */
+#empanada-img-uno{background-image: url(../img/hacerpedido/empanadas-1-min.JPG);
+background-size: cover;
+background-repeat: no-repeat;
+background-position: center;}
 
+#empanada-img-dos{background-image: url(../img/hacerpedido/empanadas-2-min.JPG);
+background-size: cover;
+background-repeat: no-repeat;
+background-position: center;}
+
+#empanada-img-tres{background-image: url(../img/hacerpedido/empandas-3-min.JPG);
+background-size: cover;
+background-repeat: no-repeat;
+background-position: center;}
 
 .empanada:hover {background-color: rgb(18, 18, 18);
 }

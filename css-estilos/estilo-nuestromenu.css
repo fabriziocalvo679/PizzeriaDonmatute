@@ -122,11 +122,23 @@ background-position: center;}
 
 /* ---------------------- POSTRES-------------------------- */
 
-.postre-img {background-image: url(../img/hacerpedido/frutilla.png);
+.postre-img {background-image: url(../img/hacerpedido/helados1.JPG);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.postre-img-dos {background-image: url(../img/hacerpedido/helados2.JPG);
 background-size: cover;
 background-repeat: no-repeat;
 background-position: center;
-background-attachment:contain;}
+}
+
+.postre-img-tres {background-image: url(../img/hacerpedido/helados3.JPG);
+background-size:cover;
+background-repeat: no-repeat;
+background-position: center;
+}
 
 /* ---------PIE DE PAGINA  -----------*/
 .footer 

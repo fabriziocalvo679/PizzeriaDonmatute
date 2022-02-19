@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Open+Sans:ital,wght@0,400;1,500&display=swap");
 * {
+  overflow-x: hidden;
   padding: 0px;
   margin: 0px;
 }
@@ -33,7 +34,7 @@
 }
 
 #text-menu {
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
   text-align: center;
   font-style: italic;
   text-decoration: none;
@@ -98,13 +99,6 @@
   text-align: center;
 }
 
-#nosotros-img {
-  width: 450px;
-  height: -webkit-fit-content;
-  height: -moz-fit-content;
-  height: fit-content;
-}
-
 #parrafo {
   text-align: center;
   font-size: 20px;
@@ -117,8 +111,7 @@
 }
 
 .contenedor-fotografia img {
-  -o-object-fit: cover;
-     object-fit: cover;
+  width: 100%;
 }
 
 /*--------- CONTENEDOR FLEX DOS ---------- */
@@ -180,6 +173,7 @@
   padding: 8px;
   background-color: #f0b971;
   border-radius: 2rem;
+  color: black;
 }
 
 .footer a {
@@ -206,6 +200,10 @@
   padding: 8px;
   font-size: 25px;
   color: beige;
+}
+
+.medida-icono:hover {
+  color: #ffbb67;
 }
 
 #foot-texto {

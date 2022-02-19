@@ -25,7 +25,7 @@
 }
 
 #text-menu {
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
   text-align: center;
   font-style: italic;
   text-decoration: none;
@@ -73,34 +73,61 @@
 }
 
 .reseñas {
-  padding-top: 6rem;
-  padding-bottom: 10rem;
+  padding-bottom: 10px;
   padding-left: 15px;
   padding-right: 15px;
+  background-color: black;
+}
+
+.contenedor-opinion {
+  padding-top: 60px;
+  padding-bottom: 60px;
 }
 
 .profile img {
-  width: 150px;
-  height: auto;
   border-radius: 6rem;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  height: auto;
+  max-width: 200px;
+  max-height: 200px;
 }
 
 .name {
   padding: 15px;
   font-family: "Dancing Script", cursive;
   font-size: 25px;
+  color: #f0c693;
 }
 
 .palabras {
   padding: 10px;
+  color: beige;
 }
 
 .buttons {
   padding: 10px;
 }
 
-.star {
+.buttons a {
+  text-decoration: none;
+}
+
+.star.active {
   color: yellow;
+}
+
+.icon-share {
+  color: beige;
+}
+
+.icon-share:hover {
+  color: #044f96;
+}
+
+.icon-share.heart {
+  color: #b90303;
 }
 
 /* ---------PIE DE PAGINA  -----------*/
@@ -123,6 +150,7 @@
   padding: 8px;
   background-color: #f0b971;
   border-radius: 2rem;
+  color: black;
 }
 
 .footer a {
@@ -149,6 +177,10 @@
   padding: 8px;
   font-size: 25px;
   color: beige;
+}
+
+.medida-icono:hover {
+  color: #ffbb67;
 }
 
 #foot-texto {

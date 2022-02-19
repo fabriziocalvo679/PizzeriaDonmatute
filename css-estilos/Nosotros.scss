@@ -1,7 +1,7 @@
 @import "variables";
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Open+Sans:ital,wght@0,400;1,500&display=swap');
 
-* {
+* {overflow-x: hidden;
 padding: 0px;
 margin: 0px;
 }
@@ -38,8 +38,7 @@ align-items: center;
 text-align: center;
 }
 
-#nosotros-img {width: 450px;
-height: fit-content;}
+
 
 #parrafo {text-align: center;
 font-size: 20px;
@@ -50,7 +49,7 @@ color: bisque;
 word-spacing: 4px;
 line-height: 40px;}
 
-.contenedor-fotografia  img {object-fit: cover;}
+.contenedor-fotografia  img { width: 100%;}
 
 
 

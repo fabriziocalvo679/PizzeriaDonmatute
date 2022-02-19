@@ -3,6 +3,7 @@ body {
   padding: 0px;
   margin: 0px;
   background-color: #070707;
+  overflow-x: hidden;
 }
 
 /* ---------TIPOGRAFIAS-----------*/
@@ -46,7 +47,7 @@ body {
 }
 
 #text-menu {
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
   text-align: center;
   font-style: italic;
   text-decoration: none;
@@ -109,8 +110,12 @@ body {
 
 .redes-icon {
   padding: 15px;
-  color: bisque;
+  color: beige;
   font-size: 35px;
+}
+
+.redes-icon:hover {
+  color: #f0c693;
 }
 
 /* ----------------------FORMULARIO-------------------------- */
@@ -151,6 +156,7 @@ body {
   padding: 8px;
   background-color: #f0b971;
   border-radius: 2rem;
+  color: black;
 }
 
 .footer a {
@@ -177,6 +183,10 @@ body {
   padding: 8px;
   font-size: 25px;
   color: beige;
+}
+
+.medida-icono:hover {
+  color: #ffbb67;
 }
 
 #foot-texto {

@@ -5,6 +5,7 @@
 body {padding: 0px;
 margin: 0px;
 background-color: rgb(7, 7, 7);
+overflow-x: hidden;
 }
 
 /* ---------TIPOGRAFIAS-----------*/
@@ -56,8 +57,9 @@ a {text-decoration: none;
 
 }
 .redes-icon{padding: 15px;
-color: bisque;
+color: beige;
 font-size: 35px;}
+.redes-icon:hover {color:rgb(240, 198, 147) ;}
 
 /* ----------------------FORMULARIO-------------------------- */
 

@@ -1,12 +1,16 @@
 
 @import "variables" ;
-body {background-color: black;}
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Open+Sans:ital,wght@0,400;1,500&display=swap');
+
+body {background-color: black;
+overflow-x: hidden;}
 
 #background {background-image: url(../img/background.jpg);
 background-repeat:no-repeat;
 background-position:center;
 background-size:cover;
 background-attachment:fixed;
+
 }
 
 //Menu de navegacion 
@@ -79,6 +83,9 @@ background-attachment: fixed;}
 
 .foto-envios {padding-top: 100px;
 padding-bottom:30px}
+
+
+/*-------------- BOTON -------- */
 
 /* ---------PIE DE PAGINA  -----------*/
 @import "footer";

@@ -11,6 +11,7 @@ padding-top: 15px;
 .footer li a:hover {padding: 8px;
 background-color: rgb(240, 185, 113);
 border-radius: 2rem;
+color: black;
 }
 .footer a {text-decoration: none;
 }
@@ -30,6 +31,10 @@ font-style: italic;
 .medida-icono{padding: 8px;
 font-size: 25px;
 color: beige;
+}
+
+.medida-icono:hover { 
+color: rgb(255, 187, 103);
 }
 
 #foot-texto {padding-top: 5px;

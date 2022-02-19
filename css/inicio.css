@@ -1,5 +1,7 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Open+Sans:ital,wght@0,400;1,500&display=swap");
 body {
   background-color: black;
+  overflow-x: hidden;
 }
 
 #background {
@@ -35,7 +37,7 @@ body {
 }
 
 #text-menu {
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
   text-align: center;
   font-style: italic;
   text-decoration: none;
@@ -148,6 +150,7 @@ body {
   padding-bottom: 30px;
 }
 
+/*-------------- BOTON -------- */
 /* ---------PIE DE PAGINA  -----------*/
 /* ---------PIE DE PAGINA  -----------*/
 .footer {
@@ -169,6 +172,7 @@ body {
   padding: 8px;
   background-color: #f0b971;
   border-radius: 2rem;
+  color: black;
 }
 
 .footer a {
@@ -195,6 +199,10 @@ body {
   padding: 8px;
   font-size: 25px;
   color: beige;
+}
+
+.medida-icono:hover {
+  color: #ffbb67;
 }
 
 #foot-texto {

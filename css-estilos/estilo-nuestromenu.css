@@ -48,7 +48,7 @@ background-position: center;}
 /* ---------BARRA DE NAVEGACION PEDIDO -----------*/
 #menu-item {font-family:'Open Sans', sans-serif;}
 
-.menu-navegacion {justify-content: center} 
+.menu-navegacion {justify-content:center;} 
 
 .menu-navegacion li {padding-inline: 50px;}
 
@@ -94,12 +94,11 @@ color: beige;
 
 
 .text-lista {text-align: center;
-    padding:15px;
-    align-items: center;
-    list-style-type: none;
-    font-size: 23px;
-    font-family: 'Dancing Script', cursive;
-    color: beige;
+padding:15px;
+align-items: center;
+font-size: 23px;
+font-family: 'Dancing Script', cursive;
+color: rgb(240, 198, 147);
 }
 
 
@@ -129,17 +128,33 @@ background-size: cover;
 background-repeat: no-repeat;
 background-position: center;}
 
-.empanada:hover {background-color: rgb(18, 18, 18);
-}
 
+/* ---------------------- CALZONES-------------------------- */
+.calzones {list-style: none;}
+.calzones li {font-family: 'Dancing Script', cursive; 
+font-size: 23px;
+color: rgb(240, 198, 147);
+padding: 10px;}
+.calzones p {text-align: start;
+font-family: 'Open Sans', sans-serif;
+text-transform: lowercase;
+color: beige;
+font-size: 15px;
+padding-left: 10px;
+padding-bottom: 5px;}
+
+.calzon-img {background-image: url(../img/hacerpedido/calzonepic.jpg);
+background-size: cover;
+background-repeat: no-repeat;
+background-position: center;}
 
 
 /* ---------------------- POSTRES-------------------------- */
 
 .postre-img {background-image: url(../img/hacerpedido/helados1.JPG);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
+background-size: cover;
+background-repeat: no-repeat;
+background-position: center;
 }
 
 .postre-img-dos {background-image: url(../img/hacerpedido/helados2.JPG);

@@ -1,11 +1,12 @@
 @import "variables";
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Open+Sans:ital,wght@0,400;1,500&display=swap');
 
-
+body { background-color: black;
+    overflow-x: hidden;}
 //menu de navegacion 
 
 @import "navbar";
-.contenedor-menu { background-color: black}
+
 
 .encabezado { padding: 150px;
 text-align: center;
@@ -23,9 +24,7 @@ background-attachment: fixed;
 
 
 .reseñas { padding-bottom: 10px;
-padding-left: 15px;
-padding-right: 15px;
-background-color: black;}
+}
 
 .contenedor-opinion { padding-top: 60px;
 padding-bottom: 60px ;}

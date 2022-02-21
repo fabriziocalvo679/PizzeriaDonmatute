@@ -79,10 +79,9 @@
 
 /*--------- CONTENEDOR FLEX UNO ---------- */
 .banner {
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Dancing Script", cursive;
   font-size: 60px;
   font-style: italic;
-  padding-left: 9rem;
   padding-bottom: 3rem;
   text-align: center;
   color: bisque;
@@ -106,7 +105,7 @@
   font-family: 'Open Sans', sans-serif;
   font-style: italic;
   color: bisque;
-  word-spacing: 4px;
+  word-spacing: 3px;
   line-height: 40px;
 }
 
@@ -127,9 +126,8 @@
 }
 
 .banner-productos {
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Dancing Script", cursive;
   font-style: italic;
-  padding-right: 9rem;
   text-align: center;
   color: bisque;
   font-size: 60px;
@@ -139,17 +137,16 @@
 .parrafo-productos {
   text-align: center;
   font-size: 20px;
-  padding-right: 15px;
   font-family: 'Open Sans', sans-serif;
   font-style: italic;
   color: bisque;
-  word-spacing: 4px;
+  word-spacing: 3px;
   line-height: 50px;
 }
 
 #productos-img {
   width: 400px;
-  height: 500px;
+  height: 480px;
 }
 
 /*---------CIERRE CONTENEDORES---------- */

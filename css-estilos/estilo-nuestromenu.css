@@ -1,7 +1,7 @@
 /* FONDO DE LA PAGINA  */
 body {background-color: black;
     overflow-x: hidden;}
-.back-img {background-image: url(../img/hacerpedido/Diseño\ sin\ título.png);
+.back-img {background-image: url(../img/nuestromenu/background.png);
 background-size: cover;
 background-repeat: no-repeat;
 background-position: center;
@@ -39,7 +39,7 @@ font-size:  50px;
 text-align: center;
 padding: 150px;
 color: black;
-background-image: url(../img/hacerpedido/banner-menu.jpg);
+background-image: url(../img/nuestromenu/banner-menu.jpg);
 background-size: cover;
 background-repeat: no-repeat;
 background-position: center;}
@@ -54,28 +54,28 @@ background-position: center;}
 
 
 /* ---------------------- PIZZAS-------------------------- */
-#pizza-img {background-image: url(../img/hacerpedido/mozza.jpg);
+#pizza-img {background-image: url(../img/nuestromenu/pizzas/mozza.jpg);
 background-size: cover;
 background-repeat: no-repeat;
 background-position: center;}
 
-#pizza-img-dos {background-image: url(../img/hacerpedido/pizza_napolitana_32625_orig.jpg);
+#pizza-img-dos {background-image: url(../img/nuestromenu/pizzas/pizza_napolitana_32625_orig.jpg);
 background-size: cover;
 background-repeat: no-repeat;
 background-position: center;}
 
-#pizza-img-tres {background-image: url(../img/hacerpedido/pizza-jamon-y-morron.jpg);
+#pizza-img-tres {background-image: url(../img/nuestromenu/pizzas/pizza-jamon-y-morron.jpg);
 background-size: cover;
 background-repeat: no-repeat;
 background-position: center;}
 
 
-#pizza-img-cuatro {background-image: url(../img/hacerpedido/rucula-y-parmesano.jpg);
+#pizza-img-cuatro {background-image: url(../img/nuestromenu/pizzas/rucula-y-parmesano.jpg);
 background-size: cover;
 background-repeat: no-repeat;
 background-position: center;}
 
-#pizza-img-cinco {background-image: url(../img/hacerpedido/pizzadecancha.jpg);
+#pizza-img-cinco {background-image: url(../img/nuestromenu/pizzas/pizzadecancha.jpg);
 background-size: cover;
 background-repeat: no-repeat;
 background-position: center;}
@@ -113,17 +113,17 @@ padding-bottom: 5px;}
 
 
 /* ---------------------- EMPANADAS-------------------------- */
-#empanada-img-uno{background-image: url(../img/hacerpedido/empanadas-1-min.JPG);
+#empanada-img-uno{background-image: url(../img/nuestromenu/empanadas/empanadas-1-min.JPG);
 background-size: cover;
 background-repeat: no-repeat;
 background-position: center;}
 
-#empanada-img-dos{background-image: url(../img/hacerpedido/empanadas-2-min.JPG);
+#empanada-img-dos{background-image: url(../img/nuestromenu/empanadas/empanadas-2-min.JPG);
 background-size: cover;
 background-repeat: no-repeat;
 background-position: center;}
 
-#empanada-img-tres{background-image: url(../img/hacerpedido/empandas-3-min.JPG);
+#empanada-img-tres{background-image: url(../img/nuestromenu/empanadas/empandas-3-min.JPG);
 background-size: cover;
 background-repeat: no-repeat;
 background-position: center;}
@@ -143,7 +143,7 @@ font-size: 15px;
 padding-left: 10px;
 padding-bottom: 5px;}
 
-.calzon-img {background-image: url(../img/hacerpedido/calzonepic.jpg);
+.calzon-img {background-image: url(../img/nuestromenu/calzones/calzonepic.jpg);
 background-size: cover;
 background-repeat: no-repeat;
 background-position: center;}
@@ -151,19 +151,19 @@ background-position: center;}
 
 /* ---------------------- POSTRES-------------------------- */
 
-.postre-img {background-image: url(../img/hacerpedido/helados1.JPG);
+.postre-img {background-image: url(../img/nuestromenu/postres/helados1.JPG);
 background-size: cover;
 background-repeat: no-repeat;
 background-position: center;
 }
 
-.postre-img-dos {background-image: url(../img/hacerpedido/helados2.JPG);
+.postre-img-dos {background-image: url(../img/nuestromenu/postres/helados2.JPG);
 background-size: cover;
 background-repeat: no-repeat;
 background-position: center;
 }
 
-.postre-img-tres {background-image: url(../img/hacerpedido/helados3.JPG);
+.postre-img-tres {background-image: url(../img/nuestromenu/postres/helados3.JPG);
 background-size:cover;
 background-repeat: no-repeat;
 background-position: center;

@@ -56,7 +56,7 @@ background-position: center;}
 .menu-navegacion {justify-content:center;
 } 
 
-.menu-navegacion li {padding-inline: 20px;}
+.menu-navegacion li {padding-inline: 50px;}
 
 #tab-icon { width: 25px;
 height: 25px;
@@ -175,7 +175,20 @@ background-position: center;}
 
 /* ---------------------- CERVEZAS-------------------------- */
 
-
+#cerveza-img{background-image: url(../img/nuestromenu/cervezas/cerveszas-1-min.JPG);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;}
+    
+#cerveza-img-dos{background-image: url(../img/nuestromenu/cervezas/cervezas-2-min.JPG);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;}
+    
+#cerveza-img-tres{background-image: url(../img/nuestromenu/cervezas/cervezas-3-min.JPG);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;}
 /* ---------------------- POSTRES-------------------------- */
 
 .postre-foto img {

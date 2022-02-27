@@ -72,16 +72,15 @@ color:rgb(104, 102, 102)}
 .card a:hover { filter: brightness(60%);}
 /* ---------TERCERA SECCION ENVIO -----------*/
 
-.encabezado.envio{
-background-image: url(../img/33.jpg);
-}
-
-.encabezado-envios { text-align: center;
+.encabezado.envio{text-align: center;
     font-family: $font-titulos;
     font-size: 50px;
-    color:beige;
+    color: black;
     margin-top: 50px;
-    padding: 50px;}
+    padding: 150px;
+background-image: url(../img/nosotros/kitchen.jpg);
+}
+
 .foto-envios {padding-top: 100px;
 padding-bottom:30px}
 

@@ -136,16 +136,13 @@ body {
 
 /* ---------TERCERA SECCION ENVIO -----------*/
 .encabezado.envio {
-  background-image: url(../img/33.jpg);
-}
-
-.encabezado-envios {
   text-align: center;
   font-family: "Dancing Script", cursive;
   font-size: 50px;
-  color: beige;
+  color: black;
   margin-top: 50px;
-  padding: 50px;
+  padding: 150px;
+  background-image: url(../img/nosotros/kitchen.jpg);
 }
 
 .foto-envios {

@@ -125,6 +125,10 @@
   text-align: center;
 }
 
+.contenedor-flex-productos img {
+  max-height: 490px;
+}
+
 .banner-productos {
   font-family: "Dancing Script", cursive;
   font-style: italic;
@@ -142,11 +146,6 @@
   color: bisque;
   word-spacing: 3px;
   line-height: 50px;
-}
-
-#productos-img {
-  width: 400px;
-  height: 480px;
 }
 
 /*---------CIERRE CONTENEDORES---------- */

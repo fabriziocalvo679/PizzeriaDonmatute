@@ -111,6 +111,10 @@ body {
   background-attachment: fixed;
 }
 
+.encabezado.sabor {
+  background-image: url(../img/nosotros/pizzaslice.jpg);
+}
+
 .recuadros {
   background-color: beige;
 }
@@ -131,18 +135,17 @@ body {
 }
 
 /* ---------TERCERA SECCION ENVIO -----------*/
-.encabezado-envio {
+.encabezado.envio {
+  background-image: url(../img/33.jpg);
+}
+
+.encabezado-envios {
   text-align: center;
   font-family: "Dancing Script", cursive;
   font-size: 50px;
-  color: black;
+  color: beige;
   margin-top: 50px;
-  padding: 150px;
-  background-image: url(../img/33.jpg);
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-  background-attachment: fixed;
+  padding: 50px;
 }
 
 .foto-envios {

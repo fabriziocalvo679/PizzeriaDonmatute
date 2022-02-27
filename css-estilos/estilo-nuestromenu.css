@@ -10,12 +10,17 @@ background-attachment:fixed;}
 *{ padding:0px;
 margin:0px;
 }
-.boton {
-font-size: 20px;
-color: red ;
-padding: 25px ;
+.ir-arriba{display: none;
+font-size: 15px;
+color: rgb(41, 38, 38) ;
+padding: 10px ;
 cursor: pointer ;
-background-color: beige
+background-color:beige;
+border-style: solid;
+border-color: black;
+position: fixed;
+bottom: 2px;
+right: 2px;
 }
 
 
@@ -48,11 +53,15 @@ background-position: center;}
 /* ---------BARRA DE NAVEGACION PEDIDO -----------*/
 #menu-item {font-family:'Open Sans', sans-serif;}
 
-.menu-navegacion {justify-content:center;} 
+.menu-navegacion {justify-content:center;
+} 
 
 .menu-navegacion li {padding-inline: 20px;}
 
-
+#tab-icon { width: 25px;
+height: 25px;
+}
+button i {color: black;}
 /* ---------------------- PIZZAS-------------------------- */
 #pizza-img {background-image: url(../img/nuestromenu/pizzas/mozza.jpg);
 background-size: cover;
@@ -85,7 +94,6 @@ background-position: center;}
 /* ---------Tipografias -----------*/
 .palabras{ text-align: center;
 padding:15px;
-align-items: center;
 list-style-type: none;
 font-size: 20px;
 font-family: 'Dancing Script', cursive;
@@ -147,27 +155,36 @@ padding-bottom: 5px;}
 background-size: cover;
 background-repeat: no-repeat;
 background-position: center;}
+/* ---------------------- GASEOSAS -------------------------- */
+
+
+#latas-img{background-image: url(../img/nuestromenu/gaseosas/latas-min.JPG);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;}
+    
+#mediolitro-img{background-image: url(../img/nuestromenu/gaseosas/medio-min.JPG);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;}
+    
+#litro-img{background-image: url(../img/nuestromenu/gaseosas/litro-min.JPG);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;}
+
+/* ---------------------- CERVEZAS-------------------------- */
 
 
 /* ---------------------- POSTRES-------------------------- */
 
-.postre-img {background-image: url(../img/nuestromenu/postres/helados1.JPG);
-background-size: cover;
-background-repeat: no-repeat;
-background-position: center;
+.postre-foto img {
+width: 100%;
+height: 100%;
 }
 
-.postre-img-dos {background-image: url(../img/nuestromenu/postres/helados2.JPG);
-background-size: cover;
-background-repeat: no-repeat;
-background-position: center;
-}
-
-.postre-img-tres {background-image: url(../img/nuestromenu/postres/helados3.JPG);
-background-size:cover;
-background-repeat: no-repeat;
-background-position: center;
-}
+.postre-foto-medio img { max-width: fit-content;
+max-height: fit-content;}
 
 /* ---------PIE DE PAGINA  -----------*/
 .footer 

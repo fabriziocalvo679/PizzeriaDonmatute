@@ -58,6 +58,10 @@ background-repeat: no-repeat;
 background-position: center;
 background-attachment: fixed;}
 
+
+.encabezado.sabor {background-image: url(../img/nosotros/pizzaslice.jpg);}
+
+
 .recuadros {background-color: beige;
 h5 {font-family: 'Dancing Script';
 color: black}
@@ -68,19 +72,16 @@ color:rgb(104, 102, 102)}
 .card a:hover { filter: brightness(60%);}
 /* ---------TERCERA SECCION ENVIO -----------*/
 
-.encabezado-envio{text-align: center;
-font-family: $font-titulos;
-font-size: 50px;
-color:black;
-margin-top: 50px;
-padding: 150px;
+.encabezado.envio{
 background-image: url(../img/33.jpg);
-background-size: cover;
-background-repeat: no-repeat;
-background-position: center;
-background-attachment: fixed;}
+}
 
-
+.encabezado-envios { text-align: center;
+    font-family: $font-titulos;
+    font-size: 50px;
+    color:beige;
+    margin-top: 50px;
+    padding: 50px;}
 .foto-envios {padding-top: 100px;
 padding-bottom:30px}
 

@@ -59,7 +59,8 @@ line-height: 40px;}
 .contenedor-flex-productos {display: flex;
 padding: 50px;
 align-items: center;
-text-align: center;
+text-align: center; 
+img {max-height: 490px;}
 }
 
 .banner-productos {font-family:$font-titulos;
@@ -78,8 +79,8 @@ color: bisque;
 word-spacing: 3px;
 line-height: 50px;}
 
-#productos-img {width:400px;
-height:480px;}
+
+
 
 /*---------CIERRE CONTENEDORES---------- */
 

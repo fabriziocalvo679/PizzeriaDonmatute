@@ -44,10 +44,11 @@ font-size:  50px;
 text-align: center;
 padding: 150px;
 color: black;
-background-image: url(../img/nuestromenu/banner-menu.jpg);
+background-image: url(../img/banner-menu-min-min.jpg);
 background-size: cover;
+background-position:bottom;
 background-repeat: no-repeat;
-background-position: center;}
+background-attachment: fixed;}
 
 
 /* ---------BARRA DE NAVEGACION PEDIDO -----------*/

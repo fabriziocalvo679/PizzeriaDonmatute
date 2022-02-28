@@ -9,7 +9,6 @@ body {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  background-attachment: fixed;
 }
 
 * {
@@ -101,7 +100,7 @@ body {
   text-align: center;
   font-family: "Dancing Script", cursive;
   font-size: 50px;
-  color: black;
+  color: #f0c693;
   margin-top: 80px;
   padding: 150px;
   background-image: url(../img/35.jpg);
@@ -112,7 +111,7 @@ body {
 }
 
 .encabezado.sabor {
-  background-image: url(../img/nosotros/pizzaslice.jpg);
+  background-image: url(../img/nuestromenu/banner-napo-min.JPG);
 }
 
 .recuadros {
@@ -142,7 +141,7 @@ body {
   color: black;
   margin-top: 50px;
   padding: 150px;
-  background-image: url(../img/nosotros/kitchen.jpg);
+  background-image: url(../img/mozz.jpg);
 }
 
 .foto-envios {

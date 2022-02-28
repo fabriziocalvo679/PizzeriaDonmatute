@@ -9,8 +9,6 @@ overflow-x: hidden;}
 background-repeat:no-repeat;
 background-position:center;
 background-size:cover;
-background-attachment:fixed;
-
 }
 
 //Menu de navegacion 
@@ -49,7 +47,7 @@ text-align: center;
 .encabezado{text-align: center;
 font-family: $font-titulos;
 font-size: 50px;
-color:black;
+color: $color-titulos;
 margin-top: 80px;
 padding: 150px;
 background-image: url(../img/35.jpg);
@@ -59,7 +57,7 @@ background-position: center;
 background-attachment: fixed;}
 
 
-.encabezado.sabor {background-image: url(../img/nosotros/pizzaslice.jpg);}
+.encabezado.sabor {background-image: url(../img/nuestromenu/banner-napo-min.JPG);}
 
 
 .recuadros {background-color: beige;
@@ -78,7 +76,7 @@ color:rgb(104, 102, 102)}
     color: black;
     margin-top: 50px;
     padding: 150px;
-background-image: url(../img/nosotros/kitchen.jpg);
+background-image: url(../img/mozz.jpg);
 }
 
 .foto-envios {padding-top: 100px;

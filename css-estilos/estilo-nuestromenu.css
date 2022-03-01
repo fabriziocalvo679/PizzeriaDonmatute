@@ -189,16 +189,20 @@ background-position: center;}
 #cerveza-img-tres{background-image: url(../img/nuestromenu/cervezas/cervezas-3-min.JPG);
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: center;}
+    background-position: center;
+}
 /* ---------------------- POSTRES-------------------------- */
 
-.postre-foto img {
-width: 100%;
-height: 100%;
-}
 
-.postre-foto-medio img { max-width: fit-content;
-max-height: fit-content;}
+.postre-img {background-image: url(../img/nuestromenu/postres/helados-min.JPG);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;}
+
+.bombon-img{background-image: url(../img/nuestromenu/postres/bombones-min.JPG);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;}
 
 /* ---------PIE DE PAGINA  -----------*/
 .footer 
@@ -263,13 +267,15 @@ padding-left: 35px;}
 .barra-navegacion li {padding-inline: 30px;}
 }
 
-
+.menu-navegacion li {padding-inline: 10px;}
 
 
 /* ---------768px -----------*/
 
 @media (max-width: 768px) {
 
+
+    .menu-navegacion li {padding-inline: 0px;}
 
 /* ---FOOTER ---*/
 .footer {margin: 0px;

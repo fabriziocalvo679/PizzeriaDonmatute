@@ -241,7 +241,7 @@
 }
 
 /*-------------------------------------------RESPONSIVE-------------------------------------------------*/
-@media (max-width: 768px) {
+@media (max-width: 992px) {
   /* ---------NOSOTROS  -----------*/
   .contenedor-flex {
     -webkit-box-orient: vertical;

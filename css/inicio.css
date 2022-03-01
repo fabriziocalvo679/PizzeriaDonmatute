@@ -244,6 +244,9 @@ body {
 
 /*---------RESPONSIVE -----------*/
 @media (max-width: 768px) {
+  .encabezado {
+    background-attachment: scroll;
+  }
   .texto-central {
     margin: 0%;
     padding: 160px;

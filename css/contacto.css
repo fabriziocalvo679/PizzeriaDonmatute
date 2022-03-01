@@ -81,7 +81,7 @@ body {
 .encabezado {
   padding: 150px;
   text-align: center;
-  color: #f0c693;
+  color: black;
   font-family: 'Dancing Script', cursive;
   background-image: url(../img/33.jpg);
   background-size: cover;
@@ -240,6 +240,9 @@ body {
   .pantalla-chica {
     display: none;
   }
+  body {
+    overflow-x: hidden;
+  }
 }
 
 @media (max-width: 768px) {
@@ -250,10 +253,16 @@ body {
   .pantalla-grande {
     display: none;
   }
+  body {
+    overflow-x: hidden;
+  }
 }
 
 /* ---------576px -----------*/
 @media (max-width: 576px) {
+  body {
+    overflow-x: hidden;
+  }
   #columnas {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;

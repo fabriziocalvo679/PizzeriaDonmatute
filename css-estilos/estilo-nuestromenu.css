@@ -62,7 +62,7 @@ background-attachment: fixed;}
 #tab-icon { width: 25px;
 height: 25px;
 }
-button i {color: black;}
+button i {color: rgb(26, 25, 25);}
 /* ---------------------- PIZZAS-------------------------- */
 #pizza-img {background-image: url(../img/nuestromenu/pizzas/mozza.jpg);
 background-size: cover;
@@ -195,14 +195,14 @@ background-position: center;}
 
 
 .postre-img {background-image: url(../img/nuestromenu/postres/helados-min.JPG);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;}
+background-size: cover;
+background-repeat: no-repeat;
+background-position: center;}
 
 .bombon-img{background-image: url(../img/nuestromenu/postres/bombones-min.JPG);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;}
+background-size: cover;
+background-repeat: no-repeat;
+background-position: center;}
 
 /* ---------PIE DE PAGINA  -----------*/
 .footer 
@@ -258,6 +258,11 @@ text-align:center;}
 
 
 /* -------------------------------------------RESPONSIVE-------------------------------------------------*/
+@media (min-width: 768px)  {
+.pantalla-chica {display: none;}
+}
+
+
 
 @media (max-width: 992px) {
 
@@ -274,6 +279,10 @@ padding-left: 35px;}
 
 @media (max-width: 768px) {
 
+
+
+    
+.pantalla-grande {display: none;}
 
     .menu-navegacion li {padding-inline: 0px;}
 

@@ -31,7 +31,7 @@ padding: 2px}
 /* ---------ENCABEZADO Y COLUMNAS -----------*/
 .encabezado { padding: 150px;
 text-align: center;
-color:$color-titulos;
+color:black;
 font-family: 'Dancing Script', cursive;
 background-image: url(../img/33.jpg);
 background-size: cover;
@@ -93,7 +93,7 @@ margin-right: 100px;}
 
 @media (min-width: 768px) {
 .pantalla-chica {display: none;}
-
+body { overflow-x: hidden;}
 }
 @media (max-width: 768px) {
 
@@ -102,12 +102,13 @@ margin: 80px;}
 
 .pantalla-grande {display: none;
 }
-
+body {overflow-x: hidden;}
 }
 
 /* ---------576px -----------*/
 @media (max-width: 576px) { 
 
+body {overflow-x: hidden;}
 #columnas {
 flex-direction: column;
 }

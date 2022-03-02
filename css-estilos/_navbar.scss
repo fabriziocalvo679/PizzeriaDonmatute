@@ -19,12 +19,10 @@ margin-right: 200px;
 .nav-link.active { border-bottom: 2px solid $color-titulos !important;
 color: $color-titulos !important ;}
 
-#text-menu {font-family:$font-textos;
-text-align: center;
-font-style: italic;
-text-decoration: none;
-color: beige;
-}
+
+.bg-dark {background-color: transparent !important;
+transition: 0.80s ease;}
+.bg-dark.scrolled  { background-color: rgb(0, 0, 0)!important;}
 
 
 /* ---------RESPONSIVE -----------*/

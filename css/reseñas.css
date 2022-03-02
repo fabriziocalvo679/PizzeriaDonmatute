@@ -34,12 +34,14 @@ body {
   color: #f0c693 !important;
 }
 
-#text-menu {
-  font-family: "Open Sans", sans-serif;
-  text-align: center;
-  font-style: italic;
-  text-decoration: none;
-  color: beige;
+.bg-dark {
+  background-color: transparent !important;
+  -webkit-transition: 0.80s ease;
+  transition: 0.80s ease;
+}
+
+.bg-dark.scrolled {
+  background-color: black !important;
 }
 
 /* ---------RESPONSIVE -----------*/
@@ -63,7 +65,7 @@ body {
   text-align: center;
   font-family: "Dancing Script", cursive;
   font-size: 25px;
-  color: black;
+  color: #f0c693;
   background-image: url(../img/clientes/resenas-banner.jpg);
   background-size: cover;
   background-repeat: no-repeat;

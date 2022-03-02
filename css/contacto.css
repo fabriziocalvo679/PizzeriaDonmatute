@@ -40,15 +40,16 @@ body {
 
 .navbar .nav-link {
   border-bottom: 2px;
+  color: beige !important;
 }
 
 .navbar .nav-link:hover {
-  border-bottom: 2px solid beige;
+  border-bottom: 2px solid;
 }
 
 .nav-link.active {
-  border-bottom: 2px solid #f0c693 !important;
-  color: #f0c693 !important;
+  border-bottom: 2px solid beige !important;
+  color: beige !important;
 }
 
 .bg-dark {
@@ -58,7 +59,8 @@ body {
 }
 
 .bg-dark.scrolled {
-  background-color: black !important;
+  background-color: #f0c693 !important;
+  opacity: 95% !important;
 }
 
 /* ---------RESPONSIVE -----------*/
@@ -81,7 +83,8 @@ body {
 .encabezado {
   padding: 150px;
   text-align: center;
-  color: #f0c693;
+  color: beige;
+  font-size: 35px !important;
   font-family: 'Dancing Script', cursive;
   background-image: url(../img/36.jpg);
   background-size: cover;
@@ -102,6 +105,7 @@ body {
 
 .redes-sociales {
   text-align: center;
+  margin-top: 20px;
 }
 
 .redes-sociales a {
@@ -120,19 +124,37 @@ body {
 
 /* ----------------------FORMULARIO-------------------------- */
 .form-container {
-  padding-bottom: 30px;
+  margin-top: 50px;
+  margin-bottom: 50px;
 }
 
 .formulario {
-  margin-left: 400px;
-  margin-right: 400px;
   padding: 25px;
-  text-align: center;
+  margin-left: 200px;
+  margin-right: 200px;
 }
 
-.form-label {
+.col-form-label {
   color: beige;
   font-family: "Open Sans", sans-serif;
+}
+
+.form-etiqueta {
+  -webkit-box-pack: center !important;
+      -ms-flex-pack: center !important;
+          justify-content: center !important;
+}
+
+.form-etiqueta .col-10 {
+  padding-top: 20px;
+}
+
+.boton-enviar {
+  padding-top: 20px;
+}
+
+.btn-warning {
+  background-color: bisque !important;
 }
 
 /* ---------PIE DE PAGINA  -----------*/
@@ -153,7 +175,7 @@ body {
 }
 
 .footer li a:hover {
-  padding: 8px;
+  padding: 3px;
   background-color: #f0b971;
   border-radius: 2rem;
   color: black;
@@ -194,6 +216,7 @@ body {
   padding-bottom: 5px;
   color: beige;
   font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
 }
 
 .col a {
@@ -228,14 +251,14 @@ body {
 }
 
 /* ---------RESPONSIVE -----------*/
-@media (min-width: 768px) and (max-width: 1200px) {
+/* ---------768px -----------*/
+@media (max-width: 992px) {
   .formulario {
-    margin-left: 100px;
-    margin-right: 100px;
+    margin-left: 70px;
+    margin-right: 70px;
   }
 }
 
-/* ---------768px -----------*/
 @media (min-width: 768px) {
   .pantalla-chica {
     display: none;
@@ -246,10 +269,6 @@ body {
 }
 
 @media (max-width: 768px) {
-  .formulario {
-    margin: 80px;
-    margin: 80px;
-  }
   .pantalla-grande {
     display: none;
   }

@@ -27,15 +27,16 @@
 
 .navbar .nav-link {
   border-bottom: 2px;
+  color: beige !important;
 }
 
 .navbar .nav-link:hover {
-  border-bottom: 2px solid beige;
+  border-bottom: 2px solid;
 }
 
 .nav-link.active {
-  border-bottom: 2px solid #f0c693 !important;
-  color: #f0c693 !important;
+  border-bottom: 2px solid beige !important;
+  color: beige !important;
 }
 
 .bg-dark {
@@ -45,7 +46,8 @@
 }
 
 .bg-dark.scrolled {
-  background-color: black !important;
+  background-color: #f0c693 !important;
+  opacity: 95% !important;
 }
 
 /* ---------RESPONSIVE -----------*/
@@ -65,11 +67,11 @@
 }
 
 .encabezado {
-  text-align: center;
-  font-family: "Dancing Script", cursive;
-  font-size: 25px;
-  color: #f0c693;
   padding: 150px;
+  text-align: center;
+  font-family: 'Dancing Script', cursive;
+  font-size: 65px;
+  color: beige;
   background-image: url(../img/35.jpg);
   background-size: cover;
   background-repeat: no-repeat;
@@ -101,16 +103,29 @@
 #parrafo {
   text-align: center;
   font-size: 20px;
-  padding-left: 20px;
+  padding-left: 15px;
+  margin-right: 10px;
   font-family: 'Open Sans', sans-serif;
   font-style: italic;
   color: bisque;
   word-spacing: 3px;
-  line-height: 40px;
+  line-height: 30px;
 }
 
-.contenedor-fotografia img {
-  width: 100%;
+.contenedor-fotografia {
+  height: 350px;
+  background-image: url(../img/nosotros/local.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.contenedor-fotografia.dos {
+  height: 350px;
+  background-image: url(../img/nosotros/kitchen.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
 }
 
 /*--------- CONTENEDOR FLEX DOS ---------- */
@@ -145,7 +160,7 @@
   font-style: italic;
   color: bisque;
   word-spacing: 3px;
-  line-height: 50px;
+  line-height: 30px;
 }
 
 /*---------CIERRE CONTENEDORES---------- */
@@ -166,7 +181,7 @@
 }
 
 .footer li a:hover {
-  padding: 8px;
+  padding: 3px;
   background-color: #f0b971;
   border-radius: 2rem;
   color: black;
@@ -207,6 +222,7 @@
   padding-bottom: 5px;
   color: beige;
   font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
 }
 
 .col a {
@@ -266,4 +282,4 @@
     padding: 10px;
   }
 }
-/*# sourceMappingURL=Nosotros.css.map */
+/*# sourceMappingURL=nosotros.css.map */

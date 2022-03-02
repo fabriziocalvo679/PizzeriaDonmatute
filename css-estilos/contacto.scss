@@ -31,7 +31,8 @@ padding: 2px}
 /* ---------ENCABEZADO Y COLUMNAS -----------*/
 .encabezado { padding: 150px;
 text-align: center;
-color:$color-titulos;
+color:beige;
+font-size: 35px !important;
 font-family: 'Dancing Script', cursive;
 background-image: url(../img/36.jpg);
 background-size: cover;
@@ -52,6 +53,7 @@ padding: 40px;
 
 
 .redes-sociales {text-align: center;
+    margin-top: 20px;
 a {text-decoration: none;
 }
 
@@ -64,16 +66,22 @@ font-size: 35px;}
 /* ----------------------FORMULARIO-------------------------- */
 
 
-.form-container { padding-bottom: 30px;}
+.form-container { margin-top: 50px;
+margin-bottom: 50px;}
 
-.formulario 
-{margin-left: 400px;
-margin-right: 400px;
-padding: 25px;
-text-align: center;
+.formulario  
+{padding: 25px;
+    margin-left: 200px;
+    margin-right: 200px;
 }
-.form-label {color:$color-textos;
-font-family: $font-textos}
+.col-form-label {color:$color-textos;
+font-family: $font-textos;
+}
+.form-etiqueta  {justify-content: center !important;}
+.form-etiqueta .col-10 { 
+padding-top: 20px;}
+.boton-enviar {padding-top: 20px; }
+.btn-warning {background-color: bisque !important;}
 
 /* ---------PIE DE PAGINA  -----------*/
 @import "footer";
@@ -82,14 +90,13 @@ font-family: $font-textos}
 /* ---------RESPONSIVE -----------*/
 
 
-@media (min-width: 768px ) and  (max-width: 1200px )  {
-
-.formulario {margin-left: 100px;
-margin-right: 100px;}
-}
-
 
 /* ---------768px -----------*/
+@media (max-width:992px)  {
+    .formulario { margin-left: 70px;
+        margin-right: 70px;}
+}
+
 
 @media (min-width: 768px) {
 .pantalla-chica {display: none;}
@@ -97,8 +104,7 @@ body { overflow-x: hidden;}
 }
 @media (max-width: 768px) {
 
-.formulario {margin: 80px;
-margin: 80px;}
+
 
 .pantalla-grande {display: none;
 }

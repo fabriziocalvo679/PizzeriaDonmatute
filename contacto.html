@@ -133,28 +133,36 @@
 <!----------------------------FORMULARIO---------------------------->
 <div class="form-container container-fluid"> 
 <h4 class="titulos"> Si tenés alguna consulta no dudes en escribirnos! </h4>
-<form class="formulario border  border-4 ">
-    <div class="mb-3">
-        <label for="exampleFormControlInput1" class="form-label">Nombre</label>
-        <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Ingrese su Nombre">
+<form  >
+    <div class=" border  border-4 formulario " > 
+
+    <div class="mb-3 form-group row">
+        <label for="nombre" class="col-form-label col-2 ">Nombre:</label>
+        <div class="col-10"> 
+        <input type="text" class="form-control "  placeholder="Ingrese su Nombre"></div>
     </div>
-    <div class="mb-3">
-        <label for="exampleFormControlInput1 " class="form-label">Teléfono</label>
-        <input type="text" class="form-control" id="exampleFormControlInput1 " placeholder="Ingrese su Teléfono">
+    <div class=" mb-3 form-group row">
+        <label for="Teléfono" class="col-form-label col-2">Teléfono:</label>
+        <div class="col-10"> 
+        <input type="text" class="form-control "  placeholder="Ingrese su Teléfono"></div>
+    </div> 
+    <div class="mb-3 form-group row">
+        <label for="Correo Electrónico" class="col-form-label col-2">Correo Electrónico:</label>
+        <div class="col-10"> 
+        <input type="email" class="form-control col-10"  placeholder="nombre@ejemplo.com"></div>
     </div>
-    <div class="mb-3">
-        <label for="exampleFormControlInput1" class="form-label">Correo Electrónico</label>
-        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="nombre@ejemplo.com">
+    <div class="mb-3 form-group row">
+        <label for="consulta" class="col-2 col-form-label">Ingrese su Consulta:</label>
+        <div class="col-10"> 
+        <textarea class="form-control col-10"  rows="4"></textarea></div>
     </div>
-    <div class="mb-3">
-        <label for="exampleFormControlTextarea1" class="form-label">Ingrese su Consulta</label>
-        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+    <div class="mb-3 form-group row">
+    <a href="#"> <button type="button" class="form-control  btn btn-warning" >Enviar</button></a>
     </div>
-    <div class="mb-3">
-        <label for="exampleFormControlTextarea1" class="form-label"></label>
-        <input type="submit" class="form-control" id="exampleFormControlInput1" >
-    </div>
+</div>
 </form>
+
+
 </div>
 <!----------------------------MAP---------------------------->
 <div class="titulos row"> <h4>Cómo llegar</h4>

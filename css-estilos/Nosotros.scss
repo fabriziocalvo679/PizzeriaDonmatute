@@ -10,16 +10,18 @@ margin: 0px;
 
 @import "navbar";
 
-.encabezado {text-align: center;
-font-family: $font-titulos;
-font-size: 25px;
-color: $color-titulos;
-padding: 150px;
+.encabezado { padding: 150px;
+text-align: center;
+font-family: 'Dancing Script', cursive;
+font-size: 65px;
+color: beige;
 background-image: url(../img/35.jpg);
 background-size: cover;
 background-repeat: no-repeat;
 background-position: center;
-background-attachment: fixed;}
+background-attachment: fixed;
+}
+
 
 /*--------- CONTENEDOR FLEX UNO ---------- */
 .banner {font-family:$font-titulos;
@@ -40,17 +42,29 @@ text-align: center;
 
 #parrafo {text-align: center;
 font-size: 20px;
-padding-left: 20px;
+padding-left: 15px;
+margin-right: 10px;
 font-family:'Open Sans', sans-serif;
 font-style: italic;
 color: bisque;
 word-spacing: 3px;
-line-height: 40px;}
+line-height: 30px;}
 
-.contenedor-fotografia  img { width: 100%;}
+//.contenedor-fotografia  img { width: 100%;
+//background-attachment: fixed;
+//max-height: 650px;}
 
+.contenedor-fotografia {height: 350px;
+background-image: url(../img/nosotros/local.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+background-attachment: fixed;}
 
-
+.contenedor-fotografia.dos {height: 350px;
+    background-image: url(../img/nosotros/kitchen.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;}
 
 /*--------- CONTENEDOR FLEX DOS ---------- */
 
@@ -76,7 +90,7 @@ font-family:'Open Sans', sans-serif;
 font-style: italic;
 color: bisque;
 word-spacing: 3px;
-line-height: 50px;}
+line-height: 30px;}
 
 
 

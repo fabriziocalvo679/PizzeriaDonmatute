@@ -23,15 +23,16 @@ body {
 
 .navbar .nav-link {
   border-bottom: 2px;
+  color: beige !important;
 }
 
 .navbar .nav-link:hover {
-  border-bottom: 2px solid beige;
+  border-bottom: 2px solid;
 }
 
 .nav-link.active {
-  border-bottom: 2px solid #f0c693 !important;
-  color: #f0c693 !important;
+  border-bottom: 2px solid beige !important;
+  color: beige !important;
 }
 
 .bg-dark {
@@ -41,7 +42,8 @@ body {
 }
 
 .bg-dark.scrolled {
-  background-color: black !important;
+  background-color: #f0c693 !important;
+  opacity: 95% !important;
 }
 
 /* ---------RESPONSIVE -----------*/
@@ -63,9 +65,9 @@ body {
 .encabezado {
   padding: 150px;
   text-align: center;
-  font-family: "Dancing Script", cursive;
-  font-size: 25px;
-  color: #f0c693;
+  font-family: 'Dancing Script', cursive;
+  font-size: 65px;
+  color: beige;
   background-image: url(../img/clientes/resenas-banner.jpg);
   background-size: cover;
   background-repeat: no-repeat;
@@ -145,7 +147,7 @@ body {
 }
 
 .footer li a:hover {
-  padding: 8px;
+  padding: 3px;
   background-color: #f0b971;
   border-radius: 2rem;
   color: black;
@@ -186,6 +188,7 @@ body {
   padding-bottom: 5px;
   color: beige;
   font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
 }
 
 .col a {

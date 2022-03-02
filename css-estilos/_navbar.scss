@@ -10,19 +10,21 @@ margin-right: 200px;
 }
 
 .navbar li {padding-inline: 30px;
-}
-.navbar .nav-link{   border-bottom: 2px;}
-.navbar .nav-link:hover {border-bottom: 2px solid beige;
 
 }
+.navbar .nav-link{   border-bottom: 2px;
+    color: beige!important;}
+.navbar .nav-link:hover {border-bottom: 2px solid ;
 
-.nav-link.active { border-bottom: 2px solid $color-titulos !important;
-color: $color-titulos !important ;}
+}
+
+.nav-link.active { border-bottom: 2px solid beige !important;
+color: beige !important ;}
 
 
-.bg-dark {background-color: transparent !important;
+.bg-dark {background-color: transparent!important;
 transition: 0.80s ease;}
-.bg-dark.scrolled  { background-color: rgb(0, 0, 0)!important;}
+.bg-dark.scrolled  { background-color: $color-titulos!important; opacity: 95% !important;}
 
 
 /* ---------RESPONSIVE -----------*/

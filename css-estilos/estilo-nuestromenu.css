@@ -152,10 +152,23 @@ font-size: 15px;
 padding-left: 10px;
 padding-bottom: 5px;}
 
-.calzon-img {background-image: url(../img/nuestromenu/calzones/calzonepic.jpg);
+.calzon-img-dos {background-image: url(../img/nuestromenu/calzones/calzonepic.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;}
+
+
+
+.calzon-img {background-image: url(../img/nuestromenu/calzones/portada-calzone-m.jpg);
 background-size: cover;
 background-repeat: no-repeat;
 background-position: center;}
+
+.calzon-img-final{background-image: url(../img/nuestromenu/calzones/Calzone-de-carne-picada.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;}
+
 /* ---------------------- GASEOSAS -------------------------- */
 
 

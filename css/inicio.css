@@ -42,7 +42,8 @@ body {
 }
 
 .bg-dark {
-  background-color: transparent !important;
+  background-color: gray;
+  opacity: 65% !important;
   -webkit-transition: 0.80s ease;
   transition: 0.80s ease;
 }

@@ -19,6 +19,7 @@
     <script src="https://kit.fontawesome.com/a91c5402c2.js" crossorigin="anonymous"></script>
     <script src="https://code.jquery.com/jquery-latest.js"></script>
     <script src="/js/menu.js" ></script>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <title>Pizzería Don Matute</title>
     
 </head>
@@ -69,7 +70,7 @@
 <div class="row row-cols-1 row-cols-md-3 g-4 segunda-seccion">
 
 <div class="col">
-    <div class="card h-100">
+    <div  data-aos="flip-right" data-aos-offset="250" class="card h-100">
         <a href="nuestromenu.html"> <img src="./img/nuestromenu/pizzas/pizza-jamon-y-morron.jpg" class="card-img-top" alt="pizzas" loading="lazy"> </a>
         <div class="card-body recuadros">
         <h5 class="card-title">PIZZAS</h5>
@@ -78,7 +79,7 @@
     </div>
 </div>
 <div class="col">
-    <div class="card h-100">
+    <div  data-aos="zoom-in-up" data-aos-offset="300" class="card h-100">
         <a href="nuestromenu.html">  <img src="./img/nuestromenu/empanadas/empanadas-4-min.JPG" class="card-img-top" alt="empanadas" loading="lazy"> </a>
         <div class="card-body recuadros">
         <h5 class="card-title">EMPANADAS</h5>
@@ -90,7 +91,7 @@
     </div>
 </div>
 <div class="col">
-    <div class="card h-100">
+    <div  data-aos="flip-left" data-aos-offset="250" class="card h-100">
     <a href="nuestromenu.html"> <img src="./img/nuestromenu/calzones/calzone2.jpg" class="card-img-top" alt="calzones" loading="lazy"> </a>
         <div class="card-body recuadros">
         <h5 class="card-title">CALZONES</h5>
@@ -172,16 +173,22 @@
 
 
 
-<script>
-    $(window).scroll(function(){
-    $('nav').toggleClass('scrolled', $(this).scrollTop() > 350);
-    });
-</script>
+
 <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
     integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB"
     crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"
     integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13"
     crossorigin="anonymous"></script>
-
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+        $(window).scroll(function(){
+        $('nav').toggleClass('scrolled', $(this).scrollTop() > 350);
+        });
+    
+        AOS.init({
+                    easing: 'ease-in-sine',
+                    duration: 1000 ,
+                });
+</script>
 </html>

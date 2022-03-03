@@ -68,11 +68,11 @@ body {
   text-align: center;
   font-family: 'Dancing Script', cursive;
   font-size: 65px;
-  color: beige;
-  background-image: url(../img/clientes/resenas-banner.jpg);
+  color: #f0c693;
+  background-image: url(../img/clientes/clientes-banner.jpg);
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: center;
+  background-position: top;
   background-attachment: fixed;
 }
 

@@ -31,11 +31,11 @@ right: 2px;
 @import "navbar";
 
 .titulo {font-family: 'Dancing Script', cursive;
-font-size:  50px; 
+font-size:  35px; 
 text-align: center;
 padding: 150px;
-color: black;
-background-image: url(../img/banner-menu-min-min.jpg);
+color: $color-encabezado;
+background-image: url(../img/33.jpg);
 background-size: cover;
 background-position:bottom;
 background-repeat: no-repeat;
@@ -168,17 +168,17 @@ background-position: center;}
 #latas-img{background-image: url(../img/nuestromenu/gaseosas/latas-min.JPG);
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: center;}
+    background-position: top;}
     
 #mediolitro-img{background-image: url(../img/nuestromenu/gaseosas/medio-min.JPG);
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: center;}
+    background-position: top;}
     
 #litro-img{background-image: url(../img/nuestromenu/gaseosas/litro-min.JPG);
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: center;}
+    background-position: top;}
 
 /* ---------------------- CERVEZAS-------------------------- */
 
@@ -198,7 +198,11 @@ background-position: center;}
     background-position: center;
 }
 /* ---------------------- POSTRES-------------------------- */
-
+.postre-img.first {background-image: url(../img/nuestromenu/postres/helados-min.JPG);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center}
+    
 
 .postre-img {background-image: url(../img/nuestromenu/postres/helados-min.JPG);
 background-size: cover;

@@ -72,22 +72,22 @@ body {
 /* ---------PRIMERA SECCION  -----------*/
 .texto-central {
   text-align: center;
-  padding: 300px;
+  padding: 200px;
   position: center;
 }
 
 #pizzeria {
-  color: #6b6969;
-  font-family: 'Open Sans', sans-serif;
-  font-weight: lighter;
+  color: black;
+  font-family: 'Dancing Script', cursive;
   font-size: 80px;
+  text-shadow: 2px 2px #fcddb8;
 }
 
 #don-matute {
-  color: #0e160e;
+  color: #1a1d1a;
   font-family: 'Dancing Script', cursive;
-  font-weight: lighter;
   font-size: 80px;
+  text-shadow: 3px 3px #fcddb8;
 }
 
 /* ---------SEGUNDA SECCION  -----------*/
@@ -114,7 +114,7 @@ body {
 }
 
 .encabezado.sabor {
-  background-image: url(../img/nuestromenu/banner-napo-min.JPG);
+  background-image: url(../img/banner-napo.JPG);
 }
 
 .recuadros {
@@ -128,7 +128,6 @@ body {
 
 .recuadros p {
   font-family: "Open Sans", sans-serif;
-  color: #686666;
 }
 
 .card a:hover {

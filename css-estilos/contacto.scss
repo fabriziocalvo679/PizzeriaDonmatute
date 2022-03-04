@@ -75,11 +75,14 @@ margin-bottom: 50px;}
     margin-right: 200px;
     
 }
-.col-form-label {color:$color-textos;
+.mb-3 {color:$color-textos;
 font-family: $font-textos;
+padding: 10px;
+padding-left: 20px;
+padding-right: 20px;
 }
 .form-etiqueta  {justify-content: center !important;}
-.form-etiqueta .col-10 { 
+.form-etiqueta { 
 padding-top: 20px;}
 .boton-enviar {padding-top: 20px; }
 .btn-warning {background-color: bisque !important;}
@@ -107,8 +110,8 @@ body { overflow-x: hidden;}
 @media (max-width: 768px) {
 
 iframe  {width: 100%;}
-.formulario { margin-left: 10px;
-margin-right: 10px;
+.formulario { margin-left: 20px;
+margin-right: 20px;
 padding: 10px;}
 .pantalla-grande {display: none;
 }

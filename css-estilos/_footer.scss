@@ -8,10 +8,7 @@ padding-top: 15px;
 .footer li {list-style:none;
 
 }
-.footer li a:hover {padding: 3px;
-background-color: rgb(240, 185, 113);
-border-radius: 2rem;
-color: black;
+.footer li a:hover {border-bottom: 2px solid ;
 }
 .footer a {text-decoration: none;
 }
@@ -22,7 +19,7 @@ width: 50px;
 height: auto;
 }
 
-#donmatute  {color: bisque;
+#donmatute  {color: beige;
 font-size: 23px ;
 font-style: italic;
 }

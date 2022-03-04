@@ -101,7 +101,7 @@ body {
   color: #f0c693;
   background-image: url(../img/banners/menu-ban.jpg);
   background-size: cover;
-  background-position: bottom;
+  background-position: center;
   background-attachment: fixed;
 }
 
@@ -293,10 +293,7 @@ p {
 }
 
 .footer li a:hover {
-  padding: 3px;
-  background-color: #f0b971;
-  border-radius: 2rem;
-  color: black;
+  border-bottom: 2px solid;
 }
 
 .footer a {
@@ -314,7 +311,7 @@ p {
 }
 
 #donmatute {
-  color: bisque;
+  color: beige;
   font-size: 23px;
   font-style: italic;
 }

@@ -73,7 +73,7 @@ body {
 /* ---------PRIMERA SECCION  -----------*/
 .texto-central {
   text-align: center;
-  padding: 200px;
+  padding: 250px;
   position: center;
 }
 
@@ -106,7 +106,7 @@ body {
   color: #f0c693;
   text-shadow: 2px 2px black;
   margin-top: 80px;
-  padding: 150px;
+  padding: 200px;
   background-image: url(../img/35.jpg);
   background-size: cover;
   background-repeat: no-repeat;

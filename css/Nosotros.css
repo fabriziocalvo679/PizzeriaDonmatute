@@ -73,10 +73,10 @@
   font-family: 'Dancing Script', cursive;
   font-size: 65px;
   color: #f0c693;
-  background-image: url(../img/banners/clientes.jpeg);
+  background-image: url(../img/banners/nosotros-banner.jpg);
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: center;
+  background-position: bottom;
   background-attachment: fixed;
 }
 
@@ -113,7 +113,7 @@
 }
 
 .contenedor-fotografia {
-  height: 350px;
+  height: 400px;
   background-image: url(../img/nosotros/local.jpg);
   background-repeat: no-repeat;
   background-size: cover;
@@ -121,7 +121,7 @@
 }
 
 .contenedor-fotografia.dos {
-  height: 350px;
+  height: 400px;
   background-image: url(../img/nosotros/kitchen.jpg);
   background-repeat: no-repeat;
   background-size: cover;

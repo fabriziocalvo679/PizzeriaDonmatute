@@ -93,9 +93,9 @@
     <!--   PIZZAS     -->
 <section class="pantalla-grande"> 
 <section class="row ">  <!--  CLASICAS   -->
-<div class="col-6  animate__animated animate__fadeInLeft" id="pizza-img" class="image-fluid"> 
+<div class="col-6 container pizza-img" > 
 </div>
-<div class="col-6  animate__animated animate__fadeInDownBig"> 
+<div class="col-6 "> 
 <div class="row d-flex border-bottom" > 
 <div > 
     <label class="text-lista">Mozarella</label>
@@ -330,10 +330,9 @@
 <!------------------------PIZZAS PANTALLA CHICA ---------------->
 <section class="pantalla-chica  " >  
 
-<section class="row ">  
 <div class="row "> 
 
-<img src="img/nuestromenu/pizzas/mozza.jpg" alt="pizza id="separador-img" loading="lazy"> 
+<img src="img/nuestromenu/pizzas/mozza.jpg" alt="pizza" id="separador-img" loading="lazy"> 
 
 </div>
     <div class="row d-flex border-bottom" > 
@@ -535,7 +534,7 @@
                 <p>Tomate triturado, Anchoas, Aceitunas, Y Orégano</p>
                 </div>
     </div>
-</section>
+
 
 </section> <!--ccierre clase pantalla chica-->
 </div><!--cierre PIZZAS -->
@@ -730,87 +729,112 @@
 <!------------------------Gaseosas---------------->
 <div class="tab-pane fade" id="gaseosas" role="tabpanel" aria-labelledby="gaseosas-tab">
 
-<section class="contenedor-bebidas">
-
-<section class="contenedor-latas row">
-
-<div class="col-6 "> 
-        <div class="row d-flex border-bottom palabras">
-                <li>Coca Cola Común</li>
+<div id="carouselExampleFade" class="carousel slide carousel-slide " data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="./img/nuestromenu/gaseosas/coca.JPG" class="d-block w-100" alt="lata-coca">
+          </div>
+          <div class="carousel-item">
+            <img src="./img/nuestromenu/gaseosas/cocazero.JPG"class="d-block w-100" alt="lata-coca-zero">
+          </div>
+          <div class="carousel-item">
+            <img src="./img/nuestromenu/gaseosas/sprite.JPG" class="d-block w-100" alt="lata-sprite">
+          </div>
+          <div class="carousel-item">
+            <img src="./img/nuestromenu/gaseosas/fanta.JPG" class="d-block w-100" alt="lata-fanta">
+          </div>
         </div>
-        
-        <div class="row d-flex border-bottom palabras">
-                <li>Coca Cola Zero</li>
-        </div>
-        
-        <div class="row d-flex border-bottom palabras">
-                <li>Sprite</li>
-        </div>
-        
-        <div class="row d-flex border-bottom palabras">
-                <li>Fanta</li>
-        </div>
-        
-        
-</div> <!--Cierre lista -->
-
-<div class="col-6 " id="latas-img"> 
 </div>
 
-</section>
-
-<section class="contenedor-medio row">
-
-<div class="col-6 " id="mediolitro-img"> 
+<div class="row d-flex border-bottom  border-top gaseosa">
+    <li>Coca Cola Común</li>
 </div>
 
-<div class="col-6 ">
-            <div class="row d-flex border-bottom palabras">
+<div class="row d-flex border-bottom gaseosa">
+    <li>Coca Cola Zero</li>
+</div>
+
+<div class="row d-flex border-bottom gaseosa">
+    <li>Sprite</li>
+</div>
+
+<div class="row d-flex border-bottom gaseosa">
+    <li>Fanta</li>
+</div>
+
+<!--GAESOSAS MEDIO LITRO-->
+
+<div id="carouselExampleSlidesOnly" class="carousel slide " data-bs-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="./img/nuestromenu/gaseosas/medio/coca.JPG" class="d-block w-100" alt="coca">
+            </div>
+            <div class="carousel-item">
+              <img src="./img/nuestromenu/gaseosas/medio/coca-zero.JPG"class="d-block w-100" alt="coca-zero">
+            </div>
+            <div class="carousel-item">
+              <img src="./img/nuestromenu/gaseosas/medio/sprite.JPG" class="d-block w-100" alt="sprite">
+            </div>
+            <div class="carousel-item">
+              <img src="./img/nuestromenu/gaseosas/medio/levite.JPG" class="d-block w-100 image-fluid" alt="levitepomelo">
+            </div>
+          </div>
+</div>
+
+
+<div class="row d-flex border-bottom border-top gaseosa medio">
                 <li>Coca Cola Común</li>
-            </div>
-            <div class="row d-flex border-bottom palabras">
+</div>
+<div class="row d-flex border-bottom gaseosa medio">
                 <li>Coca Cola Zero</li>
-            </div>
-            <div class="row d-flex border-bottom palabras">
+</div>
+<div class="row d-flex border-bottom gaseosa medio">
                 <li>Sprite</li>
-            </div>
-            <div class="row d-flex border-bottom palabras">
+</div>
+<div class="row d-flex border-bottom gaseosa medio">
                 <li>Levite Pomelo</li>
-        </div>
-</div><!--cierre lista-->
-</section>
+</div>
 
-<section class="contenedor-litro row">
+<!--GAESOSAS LITRO-->
 
-<div class="col-6"> 
-<div class="row d-flex border-bottom palabras">
+<div id="carouselExampleSlidesOnly" class="carousel slide " data-bs-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="./img/nuestromenu/gaseosas/litro/zero.JPG" class="d-block w-100" alt="coca-zero">
+    </div>
+    <div class="carousel-item">
+      <img src="./img/nuestromenu/gaseosas/litro/light.JPG" class="d-block w-100" alt="cocalight">
+    </div>
+    <div class="carousel-item">
+        <img src="./img/nuestromenu/gaseosas/litro/sprite.JPG" class="d-block w-100 image-fluid" alt="sprite">
+      </div>
+      <div class="carousel-item">
+        <img src="./img/nuestromenu/gaseosas/litro/levite.JPG" class="d-block w-100 image-fluid" alt="levitepomelo">
+      </div>
+    <div class="carousel-item">
+      <img src="./img/nuestromenu/gaseosas/litro/fanta.JPG" class="d-block w-100 image-fluid" alt="levitepomelo">
+    </div>
+  </div>
+</div>
+<div class="row d-flex border-bottom border-top gaseosa litro">
             <li>Coca Cola Común</li>
 </div>
-<div class="row d-flex border-bottom palabras">
+<div class="row d-flex border-bottom gaseosa litro">
             <li>Coca Cola Zero</li>
 </div>
-<div class="row d-flex border-bottom palabras">
+<div class="row d-flex border-bottom gaseosa litro">
             <li>Coca Cola Light</li>
 </div>
 
-<div class="row d-flex border-bottom palabras">
+<div class="row d-flex border-bottom gaseosa litro">
             <li>Sprite</li>
 </div>
-<div class="row d-flex border-bottom palabras">
+<div class="row d-flex border-bottom gaseosa litro">
             <li>Fanta</li>
 </div>
-<div class="row d-flex border-bottom palabras">
+<div class="row d-flex border-bottom gaseosa litro">
             <li>Levité Pomelo</li>
 </div>
-</div> <!--cierre lista-->
-
-<div class="col-6 " id="litro-img"> 
-</div>
-
-</section>
-
-
-</section> <!--cierre contenedor bebidas-->
 
 
 </div> <!-- CIERRE DIV GASEOSAS-->
@@ -819,35 +843,65 @@
 <div class="tab-pane fade" id="cervezas" role="tabpanel" aria-labelledby="cervezas-tab">
 
 
-<section class="row">
-<div class="col-6 " id="cerveza-img"> 
+
+<div id="carouselExampleFade" class="carousel slide carousel-slide " data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="./img/nuestromenu/cervezas/carousel1/corona.JPG" class="d-block w-100" alt="cerveza">
+          </div>
+          <div class="carousel-item">
+            <img src="./img/nuestromenu/cervezas/carousel1/porron.JPG"class="d-block w-100" alt="cerveza">
+          </div>
+          <div class="carousel-item">
+            <img src="./img/nuestromenu/cervezas/carousel1/amst.JPG" class="d-block w-100" alt="cerveza">
+          </div>
+          <div class="carousel-item">
+            <img src="./img/nuestromenu/cervezas/carousel1/stella.JPG" class="d-block w-100" alt="cerveza">
+          </div>
+          <div class="carousel-item">
+            <img src="./img/nuestromenu/cervezas/carousel1/noire.JPG" class="d-block w-100" alt="cerveza">
+          </div>
+        </div>
 </div>
 
-<div class="col-6" > 
-            <div class="row d-flex border-bottom palabras">
-            <li>Corona 710 ml</li>
-            </div>
-            
-            <div class="row d-flex border-bottom palabras">
-            <li>Porron Corona</li>
-            </div>
-            
-            <div class="row d-flex border-bottom palabras">
-            <li>Amstel</li>
-            </div>
-            
-            <div class="row d-flex border-bottom palabras">
-            <li>Stella Artois</li>
-                </div>
-            
-            <div class="row d-flex border-bottom palabras">
-            <li>Stella Artois Negra</li>
-            </div>
-</div> <!--cierre lista-->
-</section>
 
-<section class="row">
-<div class="col-6"> 
+<div class="row d-flex border-bottom palabras">
+            <li>Corona 710 ml</li>
+</div>
+            
+<div class="row d-flex border-bottom palabras">
+            <li>Porron Corona</li>
+</div>
+            
+<div class="row d-flex border-bottom palabras">
+            <li>Amstel</li>
+</div>
+            
+<div class="row d-flex border-bottom palabras">
+            <li>Stella Artois</li>
+</div>
+            
+<div class="row d-flex border-bottom palabras">
+            <li>Stella Artois Negra</li>
+</div>
+<!---CAROUSEL 2 -->
+<div id="carouselExampleFade" class="carousel slide carousel-slide " data-bs-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="./img/nuestromenu/cervezas/carousel2/and-rubia.JPG" class="d-block w-100" alt="lata-cerveza">
+      </div>
+      <div class="carousel-item">
+        <img src="./img/nuestromenu/cervezas/carousel2/ipa.JPG"class="d-block w-100" alt="lata-cerveza">
+      </div>
+      <div class="carousel-item">
+        <img src="./img/nuestromenu/cervezas/carousel2/roja.JPG" class="d-block w-100" alt="lata-cerveza">
+      </div>
+      <div class="carousel-item">
+        <img src="./img/nuestromenu/cervezas/carousel2/sch.JPG" class="d-block w-100" alt="lata-cerveza">
+      </div>
+    </div>
+</div>
+
 
 <div class="row d-flex border-bottom palabras"> 
             <li>Andes Rubia</li>
@@ -865,47 +919,47 @@
 </div>
 
 <div class="row d-flex border-bottom palabras">
-            <li>Schneider</li>
+<li>Schneider</li>
 </div>
 
-</div> <!--cierre lista-->
-
-<div class="col-6 " id="cerveza-img-dos" > 
+<!--CAROUSEL 3 -->
+<div id="carouselExampleFade" class="carousel slide carousel-slide " data-bs-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="./img/nuestromenu/cervezas/carousel3/brahma.JPG" class="d-block w-100" alt="lata-coca">
+      </div>
+      <div class="carousel-item">
+        <img src="./img/nuestromenu/cervezas/carousel3/imperial.JPG"class="d-block w-100" alt="lata-coca-zero">
+      </div>
+      <div class="carousel-item">
+        <img src="./img/nuestromenu/cervezas/carousel3/schne.JPG" class="d-block w-100" alt="lata-sprite">
+      </div>
+      <div class="carousel-item">
+        <img src="./img/nuestromenu/cervezas/carousel3/miller.JPG" class="d-block w-100" alt="lata-fanta">
+      </div>
+    </div>
 </div>
 
-</section>  
-
-<section class="row"> 
-<div class="col-6 " id="cerveza-img-tres"> 
-</div>
-
-<div class="col-6">
-            <div class="row d-flex border-bottom palabras"> 
+<div class="row d-flex border-bottom palabras"> 
             <li>Schneider Negra</li>
-            </div>
-            
-            <div class="row d-flex border-bottom palabras"> 
+</div>
+
+<div class="row d-flex border-bottom palabras"> 
             <li>Schneider Roja</li>
-            </div>
+</div>
 
-            
-
-            <div class="row d-flex border-bottom palabras">
+<div class="row d-flex border-bottom palabras">
             <li>Imperial</li>
-            </div>
-            <div class="row d-flex border-bottom palabras">
+</div>
+<div class="row d-flex border-bottom palabras">
                 <li>Imperial Golden</li>
-                </div>
-                <div class="row d-flex border-bottom palabras">
+</div>
+<div class="row d-flex border-bottom palabras">
                     <li>Imperial Amber Lagger</li>
-                    </div>
-            <div class="row d-flex border-bottom palabras"> 
+</div>
+<div class="row d-flex border-bottom palabras"> 
                 <li>Brahma</li>
-            </div> 
-</div> <!--cierre lista-->
-
-</section>
-
+</div> 
 
 
 
@@ -914,11 +968,20 @@
 <!------------------------Postres---------------->
 <div class="tab-pane fade" id="postres" role="tabpanel" aria-labelledby="postres-tab">
 
-<section class="row "> 
-<div class="col-6 postre-img first"> 
-
+<div id="carouselExampleFade" class="carousel slide carousel-slide " data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="./img/nuestromenu/postres/carousel2/ddl.JPG" class="d-block w-100" alt="helado">
+          </div>
+          <div class="carousel-item">
+            <img src="./img/nuestromenu/postres/carousel2/choco.JPG"class="d-block w-100" alt="helado">
+          </div>
+          <div class="carousel-item">
+            <img src="./img/nuestromenu/postres/carousel2/frutilla.JPG" class="d-block w-100" alt="helado">
+          </div>
+        </div>
 </div>
-<div class="col-6">  
+
 <div class="row d-flex border-bottom palabras">
 <div> <li>Dulce de Leche Tentación</li> </div> 
 </div> 
@@ -928,15 +991,26 @@
 <div class="row d-flex border-bottom palabras">
         <div><li>Frutilla a la Crema</li></div>
 </div>
-<div class="row d-flex border-bottom palabras">
-    <div><li>Vainilla</li></div>
+
+<!---carousel 2-->
+
+<div id="carouselExampleFade" class="carousel slide carousel-slide " data-bs-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="./img/nuestromenu/postres/carousel1/bana.JPG" class="d-block w-100" alt="helado">
+      </div>
+      <div class="carousel-item">
+        <img src="./img/nuestromenu/postres/carousel1/cookies.JPG"class="d-block w-100" alt="helado">
+      </div>
+      <div class="carousel-item">
+        <img src="./img/nuestromenu/postres/carousel1/mascr.JPG" class="d-block w-100" alt="helado">
+      </div>
+      <div class="carousel-item">
+        <img src="./img/nuestromenu/postres/carousel1/dark.JPG" class="d-block w-100" alt="helado">
+      </div>
+    </div>
 </div>
-</div> <!-- CIERRE LISTA -->
-</section> <!--CIERRE PRIMER SECCION-->
 
-
-<section class="row"> 
-<div class="col-6 ">
 <div class="row d-flex border-bottom palabras">
                 <div><li>Cookies And Cream</li>
                </div>
@@ -954,17 +1028,24 @@
 <div class="row d-flex border-bottom palabras">
     <div>  <li>Banana Split</li> </div>
 </div>
-</div> <!-- CIERRE LISTA -->
 
-<div class="col-6  postre-img "> 
+<!--carousel bombones-->
 
+
+<div id="carouselExampleFade" class="carousel slide carousel-slide " data-bs-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="./img/nuestromenu/postres/cream.JPG" class="d-block w-100" alt="bombon-helado">
+      </div>
+      <div class="carousel-item">
+        <img src="./img/nuestromenu/postres/ddl.JPG"class="d-block w-100" alt="bombon-helado">
+      </div>
+      <div class="carousel-item">
+        <img src="./img/nuestromenu/postres/gio.JPG" class="d-block w-100" alt="bombon-helado">
+      </div>
+    </div>
 </div>
-</section> <!--CIERRE SEGUNDA SECCION-->
 
-<section class="row ">
-<div class="col-6 bombon-img"> 
-</div>
-<div class="col-6">
 <div class="row d-flex border-bottom palabras">
                 <div> <li>Bombones rellenos de Dulce de Leche</li></div>
 </div>
@@ -974,9 +1055,6 @@
 <div class="row d-flex border-bottom palabras">
         <div><li>Fresas cubiertas con Chocolate</li></div>
 </div>
-</div><!-- CIERRE LISTA -->
-</section> <!--CIERRE SEGUNDA SECCION-->
-
 
 
 

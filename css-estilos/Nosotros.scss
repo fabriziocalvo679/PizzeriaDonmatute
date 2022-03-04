@@ -15,10 +15,10 @@ text-align: center;
 font-family: 'Dancing Script', cursive;
 font-size: 65px;
 color: $color-encabezado;
-background-image: url(../img/banners/clientes.jpeg);
+background-image: url(../img/banners/nosotros-banner.jpg);
 background-size: cover;
 background-repeat: no-repeat;
-background-position: center;
+background-position: bottom;
 background-attachment: fixed;
 }
 
@@ -53,13 +53,13 @@ line-height: 35px;}
 //background-attachment: fixed;
 //max-height: 650px;}
 
-.contenedor-fotografia {height: 350px;
+.contenedor-fotografia {height: 400px;
 background-image: url(../img/nosotros/local.jpg);
 background-repeat: no-repeat;
 background-size: cover;
 background-attachment: fixed;}
 
-.contenedor-fotografia.dos {height: 350px;
+.contenedor-fotografia.dos {height: 400px;
     background-image: url(../img/nosotros/kitchen.jpg);
     background-repeat: no-repeat;
     background-size: cover;

@@ -87,7 +87,7 @@ body {
   color: #f0c693;
   font-size: 35px !important;
   font-family: 'Dancing Script', cursive;
-  background-image: url(../img/36.jpg);
+  background-image: url(../img/banners/contacto.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -257,6 +257,7 @@ body {
   .formulario {
     margin-left: 70px;
     margin-right: 70px;
+    overflow-x: hidden;
   }
 }
 
@@ -270,6 +271,14 @@ body {
 }
 
 @media (max-width: 768px) {
+  iframe {
+    width: 100%;
+  }
+  .formulario {
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 10px;
+  }
   .pantalla-grande {
     display: none;
   }

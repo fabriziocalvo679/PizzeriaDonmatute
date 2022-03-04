@@ -25,6 +25,7 @@ body {
   padding: 10px;
   cursor: pointer;
   background-color: beige;
+  opacity: 75%;
   border-style: solid;
   border-color: black;
   position: fixed;
@@ -95,12 +96,11 @@ body {
   font-family: 'Dancing Script', cursive;
   font-size: 35px;
   text-align: center;
-  padding: 150px;
+  padding: 160px;
   color: #f0c693;
-  background-image: url(../img/33.jpg);
+  background-image: url(../img/banners/menu-ban.jpg);
   background-size: cover;
   background-position: bottom;
-  background-repeat: no-repeat;
   background-attachment: fixed;
 }
 

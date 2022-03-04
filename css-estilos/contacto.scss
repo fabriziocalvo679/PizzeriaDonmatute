@@ -34,7 +34,7 @@ text-align: center;
 color: $color-encabezado;
 font-size: 35px !important;
 font-family: 'Dancing Script', cursive;
-background-image: url(../img/36.jpg);
+background-image: url(../img/banners/contacto.jpg);
 background-size: cover;
 background-repeat: no-repeat;
 background-position: center;
@@ -73,6 +73,7 @@ margin-bottom: 50px;}
 {padding: 25px;
     margin-left: 200px;
     margin-right: 200px;
+    
 }
 .col-form-label {color:$color-textos;
 font-family: $font-textos;
@@ -94,7 +95,8 @@ padding-top: 20px;}
 /* ---------768px -----------*/
 @media (max-width:992px)  {
     .formulario { margin-left: 70px;
-        margin-right: 70px;}
+        margin-right: 70px;
+        overflow-x: hidden;}
 }
 
 
@@ -104,8 +106,10 @@ body { overflow-x: hidden;}
 }
 @media (max-width: 768px) {
 
-
-
+iframe  {width: 100%;}
+.formulario { margin-left: 10px;
+margin-right: 10px;
+padding: 10px;}
 .pantalla-grande {display: none;
 }
 body {overflow-x: hidden;}
@@ -123,5 +127,6 @@ flex-direction: column;
 .col-responsive {
 padding-top: 5px;
 padding-bottom: 5px;}
+
 
 }

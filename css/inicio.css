@@ -5,10 +5,11 @@ body {
 }
 
 #background {
-  background-image: url(../img/background.jpg);
+  background-image: url(../img/banners/inicio-background.jpeg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+  background-attachment: fixed;
 }
 
 * {
@@ -87,7 +88,7 @@ body {
   color: #1a1d1a;
   font-family: 'Dancing Script', cursive;
   font-size: 80px;
-  text-shadow: 3px 3px #fcddb8;
+  text-shadow: 2px 2px #fcddb8;
 }
 
 /* ---------SEGUNDA SECCION  -----------*/
@@ -100,10 +101,10 @@ body {
 }
 
 .encabezado {
-  text-align: center;
   font-family: "Dancing Script", cursive;
   font-size: 50px;
   color: #f0c693;
+  text-shadow: 2px 2px black;
   margin-top: 80px;
   padding: 150px;
   background-image: url(../img/35.jpg);
@@ -130,25 +131,28 @@ body {
   font-family: "Open Sans", sans-serif;
 }
 
+.card a {
+  -webkit-filter: brightness(83%);
+          filter: brightness(83%);
+}
+
 .card a:hover {
-  -webkit-filter: brightness(60%);
-          filter: brightness(60%);
+  -webkit-filter: brightness(100%);
+          filter: brightness(100%);
 }
 
 /* ---------TERCERA SECCION ENVIO -----------*/
 .encabezado.envio {
-  text-align: center;
-  font-family: "Dancing Script", cursive;
-  font-size: 50px;
-  color: black;
-  margin-top: 50px;
-  padding: 150px;
-  background-image: url(../img/mozz.JPG);
+  background-image: url(../img/banners/clientes.jpeg);
 }
 
 .foto-envios {
-  padding-top: 100px;
-  padding-bottom: 30px;
+  margin-top: 100px;
+  margin-bottom: 30px;
+}
+
+.foto-envios img {
+  width: 100%;
 }
 
 /*-------------- BOTON -------- */

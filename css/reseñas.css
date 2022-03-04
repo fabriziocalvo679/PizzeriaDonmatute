@@ -69,10 +69,10 @@ body {
   font-family: 'Dancing Script', cursive;
   font-size: 65px;
   color: #f0c693;
-  background-image: url(../img/clientes/clientes-banner.jpg);
+  background-image: url(../img/banners/clientes-bann.jpg);
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: top;
+  background-position: bottom;
   background-attachment: fixed;
 }
 

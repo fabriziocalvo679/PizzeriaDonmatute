@@ -305,5 +305,8 @@ body {
     padding-top: 5px;
     padding-bottom: 5px;
   }
+  .encabezado {
+    background-attachment: scroll;
+  }
 }
 /*# sourceMappingURL=contacto.css.map */

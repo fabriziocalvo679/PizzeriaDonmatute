@@ -280,4 +280,10 @@
     padding: 10px;
   }
 }
+
+@media (max-width: 576px) {
+  .encabezado {
+    background-attachment: scroll;
+  }
+}
 /*# sourceMappingURL=nosotros.css.map */

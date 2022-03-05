@@ -92,11 +92,13 @@ img{width: 100% }
 /*---------RESPONSIVE -----------*/
 
 @media (max-width: 768px) {
-    .encabezado {background-attachment: scroll;}
+.encabezado {background-attachment: scroll;
+text-align: center;}
 
 .texto-central{ margin: 0%;
-padding: 160px;
+    text-align: center;
 }
+#background { background-attachment: scroll;}
 
 #pizzeria {
 font-size: 50px;

@@ -164,7 +164,7 @@
   line-height: 35px;
 }
 
-/*---------CIERRE CONTENEDORES---------- */
+/*---------CIERRE CONTENEDORES ------------ */
 /* ---------PIE DE PAGINA  -----------*/
 .footer {
   display: -webkit-box;
@@ -182,7 +182,7 @@
 }
 
 .footer li a:hover {
-  border-bottom: 2px solid;
+  border-bottom: 2px solid beige;
 }
 
 .footer a {

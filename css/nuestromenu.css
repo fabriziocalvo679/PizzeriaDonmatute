@@ -249,13 +249,15 @@ p {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
+  height: 800px;
 }
 
 .calzon-img {
-  background-image: url(../img/nuestromenu/calzones/portada-calzone-m.jpg);
+  background-image: url(../img/nuestromenu/calzones/calzone-2.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
+  height: 800px;
 }
 
 .calzon-img-final {
@@ -263,6 +265,7 @@ p {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
+  height: 800px;
 }
 
 /* ---------------------- GASEOSAS -------------------------- */

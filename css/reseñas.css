@@ -75,6 +75,7 @@ body {
   font-family: 'Dancing Script', cursive;
   font-size: 65px;
   color: #f0c693;
+  text-shadow: black 1px 1px;
   background-image: url(../img/banners/clientes-bann.jpg);
   background-size: cover;
   background-repeat: no-repeat;

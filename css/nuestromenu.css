@@ -105,6 +105,7 @@ body {
   text-align: center;
   padding: 160px;
   color: #f0c693;
+  text-shadow: black 1px 1px;
   background-image: url(../img/banners/menu-ban.jpg);
   background-size: cover;
   background-position: center;

@@ -93,6 +93,12 @@ body {
   }
 }
 
+@media (max-width: 576px) {
+  .logo-img {
+    margin-right: 0px;
+  }
+}
+
 .titulo {
   font-family: 'Dancing Script', cursive;
   font-size: 35px;
@@ -225,6 +231,7 @@ p {
 /* ---------------------- CALZONES-------------------------- */
 .calzones {
   list-style: none;
+  padding: 10px;
 }
 
 .calzones li {
@@ -235,7 +242,6 @@ p {
 }
 
 .calzones p {
-  text-align: start;
   font-family: 'Open Sans', sans-serif;
   text-transform: lowercase;
   color: beige;

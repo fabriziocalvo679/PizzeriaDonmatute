@@ -67,6 +67,12 @@
   }
 }
 
+@media (max-width: 576px) {
+  .logo-img {
+    margin-right: 0px;
+  }
+}
+
 .encabezado {
   padding: 150px;
   text-align: center;
@@ -277,12 +283,16 @@
     padding: 10px;
   }
   .parrafo-productos {
-    padding: 10px;
+    padding: 5px;
+    text-align: center;
   }
 }
 
 @media (max-width: 576px) {
   .encabezado {
+    background-attachment: scroll;
+  }
+  .contenedor-fotografia {
     background-attachment: scroll;
   }
 }

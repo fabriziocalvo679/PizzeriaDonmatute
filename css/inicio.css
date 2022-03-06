@@ -4,6 +4,10 @@ body {
   overflow-x: hidden;
 }
 
+html {
+  overflow-x: hidden;
+}
+
 #background {
   background-image: url(../img/banners/inicio-background.jpeg);
   background-repeat: no-repeat;
@@ -70,6 +74,12 @@ body {
   }
 }
 
+@media (max-width: 576px) {
+  .logo-img {
+    margin-right: 0px;
+  }
+}
+
 /* ---------PRIMERA SECCION  -----------*/
 .texto-central {
   text-align: center;
@@ -78,14 +88,14 @@ body {
 }
 
 #pizzeria {
-  color: black;
+  color: #070707;
   font-family: 'Dancing Script', cursive;
   font-size: 80px;
   text-shadow: 2px 2px #fcddb8;
 }
 
 #don-matute {
-  color: #1a1d1a;
+  color: #070707;
   font-family: 'Dancing Script', cursive;
   font-size: 80px;
   text-shadow: 2px 2px #fcddb8;
@@ -255,6 +265,7 @@ body {
   .texto-central {
     margin: 0%;
     text-align: center;
+    padding: 200px;
   }
   #background {
     background-attachment: scroll;

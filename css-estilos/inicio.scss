@@ -2,9 +2,9 @@
 @import "variables" ;
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Open+Sans:ital,wght@0,400;1,500&display=swap');
 
-body {background-color: black;
+body  {background-color: black;
 overflow-x: hidden;}
-
+html {overflow-x: hidden;}
 
 #background {background-image: url(../img/banners/inicio-background.jpeg);
 background-repeat:no-repeat;
@@ -24,12 +24,12 @@ padding: 250px;
 position: center;
 }
 
-#pizzeria {color: rgb(0, 0, 0);
+#pizzeria {color: rgb(7, 7, 7);
 font-family: 'Dancing Script', cursive;
 font-size: 80px;
 text-shadow: 2px 2px rgb(252, 221, 184);}
 
-#don-matute {color:rgb(26, 29, 26);
+#don-matute {color:rgb(7, 7, 7);
 font-family: 'Dancing Script', cursive;
 font-size: 80px;
 text-shadow: 2px 2px  rgb(252, 221, 184);
@@ -97,6 +97,7 @@ text-align: center;}
 
 .texto-central{ margin: 0%;
     text-align: center;
+    padding: 200px;
 }
 #background { background-attachment: scroll;}
 

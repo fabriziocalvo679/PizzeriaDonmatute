@@ -80,6 +80,12 @@ body {
   }
 }
 
+@media (max-width: 576px) {
+  .logo-img {
+    margin-right: 0px;
+  }
+}
+
 /* ---------ENCABEZADO Y COLUMNAS -----------*/
 .encabezado {
   padding: 150px;
